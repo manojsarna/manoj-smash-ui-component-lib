@@ -1,2 +1,3 @@
 # manoj-smash-ui-component-lib
-Smash UI Component Library
+
+## Smash UI Component Library
