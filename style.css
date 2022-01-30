@@ -347,3 +347,18 @@ hr{
     display: block;
 }
 
+/* AVATAR HOVER */
+
+.avatar-hover{
+    /* border:thin solid var(--COLOR-PRIMARY) ; */
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--COLOR-LIGHT-PRIMARY);
+    cursor: pointer;
+}
+
+.avatar-hover:hover{
+    border-radius: 1.5rem;
+    background: var(--COLOR-PRIMARY);
+    transition: all ease-in-out 0.2s;
+}
