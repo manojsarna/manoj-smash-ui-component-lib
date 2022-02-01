@@ -1,2 +1,427 @@
+@import "lib/Components/core.css";
+
+html{
+    scroll-behavior: smooth;
+    /* background: var(--COLOR-LIGHTEN-6); */
+    
+}
 
 
+
+body{
+    /* max-width: 120rem; */
+    min-height:100vh;
+    font-size:1.6rem;
+    font-weight: 500;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed;
+    display: flex;
+    justify-content: center;
+    color:var(--COLOR-BLACK);
+    background: var(--COLOR-BG-WHITE);
+    
+}
+
+
+.container{
+    /* margin:2rem 4rem; */
+    padding: 3rem;
+    width:100%;
+}
+
+img{
+    max-width: 100%;
+    display: block;
+}
+
+.section-main{
+    display: flex;
+    flex-direction: column;
+}
+
+hr{
+    color: var(--COLOR-PRIMARY) ;
+    margin:3rem 0;
+    border:0;
+    border-top: 1px solid var(--COLOR-PRIMARY);
+    
+}
+
+.header{
+    padding-bottom: 2rem;
+}
+
+.text-lg{
+    font-size: 1.8rem;
+}
+
+.margin-top-1r{
+    margin-top: 1rem;
+}
+
+/* --- CARBON CODE SNIPPET --- */
+
+.code-snippet{
+    /* width: 100%; */
+    /* display: flex;
+    justify-content: center; */
+    text-align: center;
+    max-height: 30rem;
+    /* padding: 2rem 2rem 0; */
+    background-color: var( --COLOR-CODE-BG);
+    margin:auto;
+    overflow: auto;
+    border-radius: 5px;
+}
+
+.code-snippet iframe{
+    width: 100%;
+    border: none;
+}
+
+.add-code{
+    font-family: var(--FONT-CODE);
+    color:var(--COLOR-WHITE);
+    font-size: 1.5rem;
+    margin: 2px;
+    font-weight: bolder;
+    background: var(--COLOR-DARKEN-4);
+    padding: 1px 5px;
+    border-radius: 5px;
+}
+
+.m-t-b-1{
+    margin:1rem 0;
+}
+
+.component-show-container{
+    
+    padding: 2rem;
+    margin: 2rem 0;
+    border:1px solid var(--COLOR-LIGHT-PRIMARY);
+    border-radius: 5px;
+    width: 100%;
+    gap:2rem;
+}
+
+.flex-column-wrap{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    flex-wrap:wrap;
+}
+
+.flex-row-wrap{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    align-items: end;
+    gap: 2rem;
+}
+
+/* ---- can be atomic--- */
+
+/* ---------ALERTS CSS------------ */
+
+
+
+
+.alert-box{
+    padding:2rem 2rem;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.alert-info{
+    
+    background-color: var( --COLOR-INFO-LIGHT);
+    color: var(--COLOR-INFO);
+    border: 1px solid var(--COLOR-INFO);
+    border-top-width: 6px;
+}
+
+
+
+.alert-success{
+    background-color: var(--COLOR-SUCCESS-LIGHT);
+    color: var(--COLOR-SUCCESS);
+    border: 1px solid var(--COLOR-SUCCESS);
+    border-top-width: 6px;
+}
+
+.alert-warning{
+    background-color: var(--COLOR-WARNING-LIGHT);
+    color: var(--COLOR-WARNING);
+    border: 1px solid var(--COLOR-WARNING);
+    border-top-width: 6px;
+}
+
+.alert-error{
+    background-color: var(--COLOR-ERROR-LIGHT);
+    color: var(--COLOR-ERROR);
+    border: 1px solid var(--COLOR-ERROR);
+    border-top-width: 6px;
+}
+
+
+
+.alert-icon{
+    margin-right: 5px;
+    /* width:2rem;
+    height: 2rem; */
+}
+
+.alert-icon-close{
+        float:right;
+        cursor: pointer;
+}
+
+
+
+.link-text{
+    text-decoration: underline;
+    text-underline-position: under;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.link-text:hover{
+    font-weight: 600;
+    text-decoration-thickness: 3px;
+}
+
+
+
+
+
+/* ------ AVATAR -------- */
+
+
+
+.avatar{
+    /* border:thin solid var(--COLOR-PRIMARY) ; */
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--COLOR-LIGHT-PRIMARY);
+    
+}
+
+
+.avatar-sq{
+    border-radius: 1rem;
+    overflow: initial;
+}
+
+.s-xxl{
+    width: 14rem;
+    height: 14rem;
+}
+
+.s-xl{
+    width: 12rem;
+    height: 12rem;
+}
+
+.s-l{
+    width: 10rem;
+    height: 10rem;
+}
+
+.s-m{
+    width: 8rem;
+    height: 8rem;
+}
+
+.s-s{
+    width: 6rem;
+    height: 6rem;
+}
+
+
+.s-xs{
+    width: 4rem;
+    height: 4rem;
+}
+
+.sui_avatar img {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+
+.avatar img{
+    max-width: 100%;
+    height: auto;
+    display: block;
+
+}
+
+/* AVATAR HOVER */
+
+.avatar-hover{
+    /* border:thin solid var(--COLOR-PRIMARY) ; */
+    border-radius: 50%;
+    overflow: hidden;
+    background: var(--COLOR-LIGHT-PRIMARY);
+    cursor: pointer;
+}
+
+.avatar-hover:hover{
+    border-radius: 1.5rem;
+    background: var(--COLOR-PRIMARY);
+    transition: all ease-in-out 0.2s;
+}
+
+/* TEXT AVATAR */
+
+.avatar-text{
+    display: grid;
+    place-content:center;
+    color: var(--COLOR-WHITE);
+}
+
+.s-xxl h2{
+    font-size: 7rem;
+    font-weight: 800;
+}
+
+.bg-1 {
+    background: var(--COLOR-DARKEN-1);
+}
+
+.bg-2 {
+    background: var(--COLOR-DARKEN-2);
+}
+
+.bg-3 {
+    background: var(--COLOR-DARKEN-3);
+}
+
+.s-xl h2{
+    font-size: 7rem;
+    font-weight: 800;
+}
+
+.s-l h2{
+    font-size: 6rem;
+    font-weight: 800;
+}
+
+
+/* BADGES */
+
+
+
+
+.bd-red{
+    background: var(--COLOR-RED);
+}
+.bd-green{
+    background: var(--COLOR-DARKEN-4);
+}
+.bd-grey{
+    background: var(--COLOR-GREY);
+}
+
+/* .avatar{
+    position: relative;
+    overflow: inherit;
+} */
+
+.avatar-badge{
+    overflow: inherit;
+}
+
+.av-badge{
+   position: absolute;
+   border-radius: 50%;
+   border: 5px solid var(--COLOR-WHITE);
+}
+
+.bd-xxl{
+    width: 4rem;
+    height:4rem;
+}
+
+.bd-xl{
+    width: 3.5rem;
+    height:3.5rem;
+}
+
+.bd-l{
+    width: 3rem;
+    height:3rem;
+}
+
+.bd-md{
+    width: 2.5rem;
+    height:2.5rem;
+}
+
+.bd-s{
+    width: 2rem;
+    height:2rem;
+}
+
+.bd-bottom-left{
+    bottom:0;
+    left:0;  
+}
+
+.bd-bottom-right{
+    bottom:0;
+    right:0;  
+}
+
+.bd-top-right{
+    top:0;
+    right:0;
+}
+
+
+.avatar-sq .av-badge{
+    border-radius: 10px;
+    
+}
+
+
+.avatar-sq > .bd-bottom-left{
+    bottom:-5px;
+    left:-5px;  
+}
+
+.avatar-sq > .bd-bottom-right{
+    bottom:-5px;
+    right:-5px;  
+}
+
+.avatar-sq > .bd-bottom-right{
+    bottom:-5px;
+    right:-5px;  
+}
+/* body::-webkit-scrollbar {
+    background-color: #202324;
+    width: 12px;
+}
+
+
+body::-webkit-scrollbar-corner {
+    background-color: #181a1b;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: #454a4d;
+    
+    
+    border-radius: 10px;
+} */

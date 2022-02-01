@@ -4,12 +4,526 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Manoj Sarna - Smash UI - Component Library</title>
+    <title>Smash UI - Documentation - Manoj Sarna</title>
+    <link rel="icon" type="image/x-icon" href="lib/assets/favicon/favicon.ico">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
+        <h1 class="header">Components</h1>
         
+        <section class="section-main">
+
+            <div id="alerts">
+
+                <div class="component-intro">
+                    <h1>Alerts</h1>
+                    <p class="text-lg margin-top-1r">Provide contextual feedback messages for typical user actions with the handful of available and flexible alert messages. 
+                        To use this alert just use class name 
+                        <code class="add-code">alert-box</code> 
+                        and also add class according to alert type -  
+                        <code class="add-code"> alert-info</code> , 
+                        <code class="add-code"> alert-success</code> , 
+                        <code class="add-code">alert-warning</code> , 
+                        <code class="add-code">alert-error</code> (e.g. 
+                        <code class="add-code">class="alert-box alert-success"</code> ).
+                        You can copy html part from below code snippet.
+                    </p>
+                   
+                    
+                </div>
+
+                <div class="component-show-container flex-column-wrap">
+                    
+                    <!--  INFO ALERT -->
+                    <div class="alert-box alert-info">
+                        <span class="alert-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </span>
+                        <span>An Info Alert Example with text link 
+                        <a class="link-text link-text-info">Please Check!</a> 
+                        </span>
+                    </div>
+
+                    <!-- SUCCESS ALERT -->
+                    <div class="alert-box alert-success">
+                        <span class="alert-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        <span>A Success Alert Example</span>
+                    </div>
+
+                    <!-- WARNING ALERT -->
+                    <div class="alert-box alert-warning">
+                        <span class="alert-icon">
+                            <i class="fas fa-exclamation-triangle alert-icon"></i>
+                        </span>
+                        <span>A Warning Alert Example</span>
+                    </div>      
+                    
+                    <!-- ERROR ALERT -->
+                    <div class="alert-box alert-error">
+                        <span class="alert-icon">
+                            <i class="fas fa-exclamation-circle alert-icon"></i>
+                        </span>
+                        <span>An Error Alert Example</span>
+                    </div>            
+                    
+                    <!-- SUCCESS ALERT WITH CLOSE BUTTON JAVASCRIPT -->
+                    <h3 class="m-t-b-1">Success Alert With Close Button ( Click!!)</h3>
+                    <div class="alert-box alert-success" id="alert-success">
+                        <span class="alert-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        <span>A Success Alert Example</span>
+                        <span class="alert-icon-close" id="alert-success-close">
+                            <i class="fas fa-times-circle"></i>
+                        </span>
+                    </div>
+                   
+                </div>
+                
+                 
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        class="lazyload"
+                        loading="lazy"
+                        src="https://carbon.now.sh/embed/vZptQsjYBtPiB2gqA70V"
+                        style="width: 1024px; height: 800px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </code>
+                 </div>
+
+            </div>
+
+            <hr>
+
+            <div id="avatar">
+
+                 <div class="component-intro">
+                    <h1>Avatar</h1>
+                    <p class="text-lg margin-top-1r">
+                        To use this avatar just use class name 
+                        <code class="add-code">avatar</code> 
+                        and also add class according to size -  
+                        <code class="add-code"> s-xxl</code> , 
+                        <code class="add-code"> s-xl</code> , 
+                        <code class="add-code">s-l</code> , 
+                        <code class="add-code">s-m</code> , 
+                        <code class="add-code">s-s</code>,
+                        <code class="add-code">s-xs</code>.
+                        You can copy html part from below code snippet.
+                    </p>
+                  
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  CIRCULAR AVATAR XXL-->
+                    <div class="avatar s-xxl">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                    </div>
+
+                    <!--  CIRCULAR AVATAR XL-->
+                    <div class="avatar s-xl">
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                    </div>     
+
+                    <!--  CIRCULAR AVATAR L-->
+                    <div class="avatar s-l">
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                    </div>    
+
+                    <!--  CIRCULAR AVATAR M-->
+                    <div class="avatar s-m">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                    </div>            
+                    
+                    <!--  CIRCULAR AVATAR S-->
+                    <div class="avatar s-s">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                    </div>     
+
+                    <!--  CIRCULAR AVATAR XS-->
+                    <div class="avatar s-xs">
+                        <img src="lib/assets/avatars/bt6.webp" alt="badminton"/>
+                    </div>                                             
+
+                </div>
+
+                 <!-- CODE SNIPPET FOR AVATARS  -->
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        class="lazyload"
+                        loading="lazy"                        
+                        src="https://carbon.now.sh/embed/B4nrmi28fAK3CIbzg84j"
+                        style="width: 1024px; height: 703px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </code>
+                 </div>
+
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Square Avatar</h1>
+                    <p class="text-lg margin-top-1r">
+                        To use this avatar just use class name 
+                        <code class="add-code">avatar-sq</code>,
+                        along with
+                        <code class="add-code"> avatar</code>
+                        and also add class according to size -  
+                        <code class="add-code"> s-xxl</code> , 
+                        <code class="add-code"> s-xl</code> , 
+                        <code class="add-code">s-l</code> , 
+                        <code class="add-code">s-m</code> , 
+                        <code class="add-code">s-s</code>,
+                        <code class="add-code">s-xs</code>.
+                        You can copy html part from below code snippet.
+                    </p>
+                  
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  SQUARE AVATAR XXL-->
+                    <div class="avatar avatar-sq s-xxl">
+                        <img src="lib/assets/avatars/bt6.webp" alt="badminton"/>
+                    </div>
+
+                    <!--  SQUARE AVATAR XL-->
+                    <div class="avatar avatar-sq s-xl">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                    </div>     
+
+                    <!--  SQUARE AVATAR L-->
+                    <div class="avatar avatar-sq s-l">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                    </div>    
+
+                    <!--  SQUARE AVATAR M-->
+                    <div class="avatar avatar-sq s-m">  
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                    </div>            
+                    
+                    <!--  SQUARE AVATAR S-->
+                    <div class="avatar avatar-sq s-s">
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                    </div>     
+
+                    <!--  SQUARE AVATAR XS-->
+                    <div class="avatar avatar-sq s-xs">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                    </div>                                             
+
+                </div>
+
+                 <!-- CODE SNIPPET FOR SQUARE AVATARS  -->
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        class="lazyload"
+                        loading="lazy"
+                        src="https://carbon.now.sh/embed/x5uTXqfvit2daO59BHpg"
+                        style="width: 1024px; height: 685px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </code>
+                 </div>
+
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Avatar on Hover</h1>
+                    <p class="text-lg margin-top-1r">
+                        To use this avatar just use class name 
+                        <code class="add-code"> avatar-hover</code>
+                        and also add class according to size -  
+                        <code class="add-code"> s-xxl</code> , 
+                        <code class="add-code"> s-xl</code> , 
+                        <code class="add-code">s-l</code> , 
+                        <code class="add-code">s-m</code> , 
+                        <code class="add-code">s-s</code>,
+                        <code class="add-code">s-xs</code>.
+                        You can copy html part from below code snippet.
+                    </p>
+                  
+                    
+                 </div>
+
+             
+                
+                 <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  AVATAR ON HOVER XXL-->
+                    <div class="avatar avatar-hover s-xxl">
+                        <img src="lib/assets/avatars/bt6.webp" alt="badminton"/>
+                    </div>
+
+                    <!--  AVATAR ON HOVER XL-->
+                    <div class="avatar avatar-hover s-xl">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                    </div>     
+
+                    <!--  AVATAR ON HOVER L-->
+                    <div class="avatar avatar-hover s-l">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                    </div>    
+
+                    <!--  AVATAR ON HOVER M-->
+                    <div class="avatar avatar-hover s-m">  
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                    </div>            
+                    
+                    <!--  AVATAR ON HOVER S-->
+                    <div class="avatar avatar-hover s-s">
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                    </div>     
+
+                    <!--  AVATAR ON HOVER XS-->
+                    <div class="avatar avatar-hover s-xs">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                    </div>                                             
+
+                 </div>
+
+                 <!-- CODE SNIPPET FOR AVATAR ON HOVER  -->
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        class="lazyload"
+                        loading="lazy"
+                        src="https://carbon.now.sh/embed/dCWEDGba7YfAUAd7rh4S"
+                        style="width: 1022px; height: 685px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </code>
+                 </div>         
+                 
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Text Avatar </h1>
+                    <p class="text-lg margin-top-1r">
+                        To use this avatar just use class name 
+                        <code class="add-code"> avatar-text</code>
+                        and also add class according to size -  
+                        <code class="add-code"> s-xxl</code> , 
+                        <code class="add-code"> s-xl</code> , 
+                        <code class="add-code">s-l</code> , 
+                        <code class="add-code">s-m</code> , 
+                        <code class="add-code">s-s</code>,
+                        <code class="add-code">s-xs</code>.
+                        You can use diffrent background colors using
+                        <code class="add-code">bg-1</code> , 
+                        <code class="add-code">bg-2</code>,
+                        <code class="add-code">bg-3</code>.
+                        You can copy html part from below code snippet.
+                    </p>
+                  
+                    
+                 </div>
+
+             
+                
+                 <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  TEXT AVATAR CIRCULAR XXL WITH BG-1-->
+                    <div class="avatar avatar-text bg-1 s-xxl">
+                        <h2>MS</h2>
+                    </div>
+                    <!--  TEXT AVATAR ON HOVER XL WITH BG-2-->
+                    <div class="avatar avatar-hover avatar-text bg-2 s-xl">
+                        <h2>YK</h2>
+                    </div>                        
+
+                    <!--  TEXT SQUARE AVATAR L WITH BG-3 -->
+                    <div class="avatar avatar-sq avatar-text bg-3 s-l">
+                        <h2>RS</h2>
+                    </div>    
+                                       
+
+                 </div>
+
+                 <!-- CODE SNIPPET FOR TEXT AVATAR  -->
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        class="lazyload"
+                        loading="lazy"
+                        src="https://carbon.now.sh/embed/3LFXg2pKBud9fIOvtINd"
+                        style="width: 1024px; height: 398px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin" >
+                      </iframe>
+                     </code>
+                 </div>                    
+
+            </div>
+
+            <hr>
+
+            <div id="badges">
+
+                <div class="component-intro">
+                    <h1>Badges</h1>
+                    <p class="text-lg margin-top-1r">Badges are being used to display a notification count or status information.
+                        <code class="add-code">av-badge</code> 
+                        and also add color classes according to the online status -  
+                        <code class="add-code bd-red"> bd-red</code> , 
+                        <code class="add-code bd-green" > bd-green</code> , 
+                        <code class="add-code bd-grey" >bd-grey</code>.
+                        There are different positions - 
+                        <code class="add-code">bd-bottom-left</code> 
+                        <code class="add-code">bd-bottom-right</code> 
+                        <code class="add-code">bd-top-right</code> etc.
+                        Sizes vary according to the badge - 
+                        <code class="add-code">bd-xxl</code>
+                        <code class="add-code">bd-xl</code>
+                        <code class="add-code">bd-l</code>
+                        <code class="add-code">bd-md</code> 
+                    </p>
+                 
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  CIRCULAR AVATAR XXL WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                    <div class="avatar avatar-badge s-xxl">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-xxl bd-bottom-left"></span>
+                    </div>
+
+                      <!--  CIRCULAR AVATAR XXL WITH RED BADGE XXL SIZE ON BOTTOM-RIGHT SIDE -->
+                    <div class="avatar avatar-badge s-xxl">
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-xxl bd-bottom-right"></span>
+                    </div>                    
+
+                    <!--  CIRCULAR AVATAR XL WITH GREY BADGE XL SIZE ON TOP-RIGHT SIDE-->
+                    <div class="avatar avatar-badge s-xl">
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                        <span class="av-badge bd-grey bd-xl bd-top-right"></span>
+                    </div>     
+
+                    <!--  CIRCULAR AVATAR L WITH RED BADGE L SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-badge s-l">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-l bd-bottom-right"></span>
+                    </div>    
+
+                    <!--  CIRCULAR AVATAR M WITH GREEN BADGE MD SIZE ON BOTTOM-RIGHT SIDE -->
+                    <div class="avatar avatar-badge s-m">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-md bd-bottom-right"></span>
+                    </div>            
+                    
+                   
+                </div>
+                
+                 
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        class="lazyload"
+                        loading="lazy"
+                        src="https://carbon.now.sh/embed/UzGzj7vbz4Djc3fclYaG"
+                        style="width: 770px; height: 595px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                     </code>
+                 </div>
+
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Badges on Square Avatars</h1>
+                    <p class="text-lg margin-top-1r">Badges are being used to display a notification count or status information.
+                        <code class="add-code">av-badge</code> 
+                        and also add color classes according to the online status -  
+                        <code class="add-code bd-red"> bd-red</code> , 
+                        <code class="add-code bd-green" > bd-green</code> , 
+                        <code class="add-code bd-grey" >bd-grey</code>.
+                        There are different positions - 
+                        <code class="add-code">bd-bottom-left</code> 
+                        <code class="add-code">bd-bottom-right</code> 
+                        <code class="add-code">bd-top-right</code> etc.
+                        Sizes vary according to the badge - 
+                        <code class="add-code">bd-xxl</code>
+                        <code class="add-code">bd-xl</code>
+                        <code class="add-code">bd-l</code>
+                        <code class="add-code">bd-md</code> 
+                    </p>
+                    
+                    
+                </div>
+
+               
+
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  SQUARE AVATAR XXL WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                    <div class="avatar avatar-sq s-xxl">
+                        <img src="lib/assets/avatars/bt6.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-xxl bd-bottom-left"></span>
+                    </div>
+
+                     <!--  SQUARE AVATAR XXL WITH GREEN BADGE XXL SIZE ON BOTTOM-RIGHT SIDE -->
+                    <div class="avatar avatar-sq s-xxl">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-xxl bd-bottom-right"></span>
+                    </div>               
+                    
+                     <!--  SQUARE AVATAR XL WITH GREY BADGE XL SIZE ON BOTTOM-RIGHT SIDE -->
+                     <div class="avatar avatar-sq s-xl">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                        <span class="av-badge bd-grey bd-xl bd-bottom-right"></span>
+                    </div>                         
+
+                    <!--  SQUARE AVATAR L WITH RED BADGE L SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-sq s-l">
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-l bd-bottom-right"></span>
+                    </div>    
+
+                    <!--  SQUARE AVATAR M WITH GREY BADGE MD SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-sq s-m">  
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                        <span class="av-badge bd-grey bd-md bd-bottom-right"></span>
+                    </div>            
+                    
+                     <!--  SQUARE AVATAR S WITH GREEN BADGE S SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-sq s-s">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-s bd-bottom-right"></span>
+                    </div>     
+
+                                  
+
+                </div>
+                
+                 
+                 <div class="code-snippet">
+                     <code>
+                        <iframe
+                        src="https://carbon.now.sh/embed/s8aGxXr0wRe0vFgSrKHg"
+                        style="width: 753px; height: 702px; border:0; transform: scale(1); overflow:hidden;"
+                        sandbox="allow-scripts allow-same-origin">
+                      </iframe>
+                 </div>
+
+                 <hr>                 
+
+            </div>            
+
+        </section>
     </div>
+    <script src="lib/Components/Alerts/alerts.js"></script>
 </body>
 </html>
