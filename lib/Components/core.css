@@ -1,0 +1,135 @@
+
+ /* FONTS  */
+
+/* ---OSWALD---- */
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+/* ---- OPEN SANS ---- */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+/* ---- ROBOTO---- */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+/* --- Raleway --- */
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+/* INTER VAN */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+/* ---- FONT AWESOME ---- */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+
+
+:root{
+        /* FONT SIZE  */
+
+        font-size:62.5%;
+
+        /* COLORS */
+    
+        --COLOR-PRIMARY:#44d62c;
+        --COLOR-LIGHT-PRIMARY:#73e161;
+        --COLOR-DARK-PRIMARY:#1dd800;
+
+        --COLOR-GREY:#60686c;
+        --COLOR-RED:#cc0000;
+        --COLOR-GREEN:#85a428;
+
+        --COLOR-CODE-BG:#011627;
+
+        --COLOR-BG-WHITE:#FFFFFF;
+        --COLOR-BG-LIGHTGREEN:#f1ffeb;
+        --COLOR-BG-DARK:#07090a;
+
+        --COLOR-BADGE-LIGHT:#f1ffeb;
+        --COLOR-BADGE-DARK:#23272a;
+
+        --COLOR-WHITE:#ffffff;
+        --COLOR-BLACK:#000000;
+        /* COLOR PALETTE LIGHTEN 10% */
+
+        --COLOR-LIGHTEN-1:#44D62C; 
+        /* rgb(68,214,44) ORIGINAL*/
+
+        --COLOR-LIGHTEN-2:#5EF046;
+        /* rgb(94,240,70) LIGHTEN 10%*/
+
+        --COLOR-LIGHTEN-3:#77FF5F;
+        /* rgb(119,255,95) LIGHTEN 20%*/
+
+        --COLOR-LIGHTEN-4:#91FF79;
+         /* rgb(145,255,121) LIGHTEN 30%*/
+
+        --COLOR-LIGHTEN-5:#AAFF92;
+         /* rgb(170,255,146) LIGHTEN 40%*/
+
+         --COLOR-LIGHTEN-6:#C3FFAB;
+         /* rgb(195,255,171) LIGHTEN 50%*/         
+ 
+
+        /* COLOR PALETTE DARKEN 10% */
+
+        --COLOR-DARKEN-1:#44D62C; 
+        /* rgb(68,214,44) ORIGINAL*/
+
+        --COLOR-DARKEN-2:#2BBD13;
+        /* rgb(43,189,19) DARKEN 10%*/
+
+        --COLOR-DARKEN-3:#11A300;
+        /* rgb(17,163,0) DARKEN 20%*/
+
+        --COLOR-DARKEN-4:#008A00;
+         /* rgb(0,138,0) DARKEN 30%*/
+
+        --COLOR-DARKEN-5:#007000;
+         /* rgb(0,112,0) DARKEN 40%*/
+
+         --COLOR-DARKEN-6:#005700;
+         /* rgb(0,87,0) DARKEN 50%*/   
+         
+         
+        /* TEXT COLOR */
+    
+        --COLOR-TEXT-BLACK:#000000;
+        --COLOR-TEXT-GREY:#999999;
+        --COLOR-TEXT-WHITE:#fff;
+
+        --COLOR-INFO:#004085;  
+        --COLOR-INFO-LIGHT:#cce5ff;
+
+        --COLOR-SUCCESS:#006d00;  
+        --COLOR-SUCCESS-LIGHT:#e6ffdc;       
+
+        --COLOR-SUCCESS-II:#006e00;  
+        --COLOR-SUCCESS-LIGHT-II:#efffee;            
+        
+        --COLOR-WARNING:#a37a00 ;  
+        --COLOR-WARNING-LIGHT:#fff3cd;  
+
+        --COLOR-WARNING-II:#6b5101;
+        --COLOR-WARNING-LIGHT-II:#fff9ee; 
+
+        --COLOR-ERROR:#664d03;  
+        --COLOR-ERROR-LIGHT:#ffe3e3;         
+
+        /* BACKGROUND */
+        --COLOR-BG-WHITE-GREEN:#E8FFED;
+        --COLOR-BG-BLACK:#222222;
+
+        --FONT-CODE: "SFMono-Regular","Menlo","Monaco","Consolas","Liberation Mono","Courier New",monospace;
+
+    }
+
+    input,
+    button,
+    textarea,
+    select {
+        font: inherit;
+    }
+
+
+    * {
+        margin:0;
+        padding:0;
+        box-sizing: border-box;
+        font-family: 'Inter', sans-serif;
+        word-wrap:break-word;
+    }
+
+    
