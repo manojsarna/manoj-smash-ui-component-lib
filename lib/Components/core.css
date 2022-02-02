@@ -68,6 +68,10 @@
         --COLOR-DARKEN-1:#44D62C; 
         /* rgb(68,214,44) ORIGINAL*/
 
+        --COLOR-DARKEN-HOVER-1:#73e161; 
+
+
+
         --COLOR-DARKEN-2:#2BBD13;
         /* rgb(43,189,19) DARKEN 10%*/
 
@@ -128,7 +132,6 @@
         margin:0;
         padding:0;
         box-sizing: border-box;
-        font-family: 'Inter', sans-serif;
         word-wrap:break-word;
     }
 

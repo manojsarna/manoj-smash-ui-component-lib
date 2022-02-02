@@ -1,0 +1,74 @@
+
+
+.alert-box{
+    padding:2rem 2rem;
+    width: 100%;
+    font-size: 2rem;
+    border-radius: 5px;
+    font-weight: 600;
+    cursor: default;
+}
+
+.alert-info{
+    
+    background-color: var( --COLOR-INFO-LIGHT);
+    color: var(--COLOR-INFO);
+    border: 1px solid var(--COLOR-INFO);
+    border-top-width: 6px;
+}
+
+
+
+.alert-success{
+    background-color: var(--COLOR-SUCCESS-LIGHT);
+    color: var(--COLOR-SUCCESS);
+    border: 1px solid var(--COLOR-SUCCESS);
+    border-top-width: 6px;
+}
+
+.alert-warning{
+    background-color: var(--COLOR-WARNING-LIGHT);
+    color: var(--COLOR-WARNING);
+    border: 1px solid var(--COLOR-WARNING);
+    border-top-width: 6px;
+}
+
+.alert-error{
+    background-color: var(--COLOR-ERROR-LIGHT);
+    color: var(--COLOR-ERROR);
+    border: 1px solid var(--COLOR-ERROR);
+    border-top-width: 6px;
+}
+
+
+
+.alert-icon{
+    margin: 1rem;
+    /* width:2rem;
+    height: 2rem; */
+}
+
+.alert-icon-close{
+        float:right;
+        cursor: pointer;
+}
+
+.alert-icon-close:hover{
+    color:var(--COLOR-BLACK)
+}
+
+.link-text{
+    text-decoration: underline;
+    text-underline-position: under;
+    color: inherit;
+    outline: none;
+    cursor: pointer;
+    white-space: nowrap;
+    font-weight: 500;
+}
+.link-text:hover{
+    font-weight: 600;
+    text-decoration-thickness: 3px;
+}
+
+

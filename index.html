@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Smash UI - Documentation - Manoj Sarna</title>
     <link rel="icon" type="image/x-icon" href="lib/assets/favicon/favicon.ico">
+    <link rel="stylesheet" href="/lib/assets/prism/prism.css" />
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -84,17 +85,44 @@
                 </div>
                 
                  
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        class="lazyload"
-                        loading="lazy"
-                        src="https://carbon.now.sh/embed/vZptQsjYBtPiB2gqA70V"
-                        style="width: 1024px; height: 800px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                     </code>
-                 </div>
+
+                <!-- CODE SNIPPET FOR ALERTS-->
+                 <script type="text/plain" class="line-numbers language-markup">
+                    <!--  INFO ALERT -->
+                    <div class="alert-box alert-info">
+                        <span class="alert-icon">
+                            <i class="fas fa-info-circle"></i>
+                        </span>
+                        <span>An Info Alert Example with text link 
+                        <a class="link-text link-text-info">Please Check!</a> 
+                        </span>
+                    </div>
+            
+                    <!-- SUCCESS ALERT -->
+                    <div class="alert-box alert-success">
+                        <span class="alert-icon">
+                            <i class="fas fa-check-circle"></i>
+                        </span>
+                        <span>A Success Alert Example</span>
+                    </div>
+            
+                    <!-- WARNING ALERT -->
+                    <div class="alert-box alert-warning">
+                        <span class="alert-icon">
+                            <i class="fas fa-exclamation-triangle alert-icon"></i>
+                        </span>
+                        <span>A Warning Alert Example</span>
+                    </div>      
+            
+            
+                    <!-- ERROR ALERT -->
+                    <div class="alert-box alert-error">
+                        <span class="alert-icon">
+                            <i class="fas fa-exclamation-circle alert-icon"></i>
+                        </span>
+                        <span>An Error Alert Example</span>
+                    </div>  
+                </script>                 
 
             </div>
 
@@ -103,7 +131,7 @@
             <div id="avatar">
 
                  <div class="component-intro">
-                    <h1>Avatar</h1>
+                    <h1>Profile Avatar</h1>
                     <p class="text-lg margin-top-1r">
                         To use this avatar just use class name 
                         <code class="add-code">avatar</code> 
@@ -155,22 +183,42 @@
                 </div>
 
                  <!-- CODE SNIPPET FOR AVATARS  -->
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        class="lazyload"
-                        loading="lazy"                        
-                        src="https://carbon.now.sh/embed/B4nrmi28fAK3CIbzg84j"
-                        style="width: 1024px; height: 703px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                     </code>
-                 </div>
+                 <script type="text/plain" class="line-numbers language-markup">
+                    <!--  CIRCULAR AVATAR XXL-->                                                          
+                    <div class="avatar s-xxl">
+                        <img src="Components/Images/bt1.png" alt="badminton"/>                           
+                    </div>
+      
+                    <!--  CIRCULAR AVATAR XL-->
+                    <div class="avatar s-xl">
+                        <img src="Components/Images/bt2.png" alt="badminton"/>
+                    </div>     
+      
+                    <!--  CIRCULAR AVATAR L-->
+                    <div class="avatar s-l">
+                        <img src="Components/Images/bt3.png" alt="badminton"/>
+                    </div>    
+      
+                    <!--  CIRCULAR AVATAR M-->
+                    <div class="avatar s-m">
+                        <img src="Components/Images/bt4.png" alt="badminton"/>
+                    </div>            
+      
+                    <!--  CIRCULAR AVATAR S-->
+                    <div class="avatar s-s">
+                        <img src="Components/Images/bt5.png" alt="badminton"/>
+                    </div>     
+      
+                    <!--  CIRCULAR AVATAR XS-->
+                    <div class="avatar s-xs">
+                        <img src="Components/Images/bt6.png" alt="badminton"/>
+                    </div>    
+                </script>   
 
                  <hr>
 
                  <div class="component-intro">
-                    <h1>Square Avatar</h1>
+                    <h1>Square Profile Avatar</h1>
                     <p class="text-lg margin-top-1r">
                         To use this avatar just use class name 
                         <code class="add-code">avatar-sq</code>,
@@ -224,17 +272,37 @@
                 </div>
 
                  <!-- CODE SNIPPET FOR SQUARE AVATARS  -->
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        class="lazyload"
-                        loading="lazy"
-                        src="https://carbon.now.sh/embed/x5uTXqfvit2daO59BHpg"
-                        style="width: 1024px; height: 685px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                     </code>
-                 </div>
+                 <script type="text/plain" class="line-numbers language-markup">
+                    <!--  SQUARE AVATAR XXL-->													
+                    <div class="avatar avatar-sq s-xxl">									
+                      <img src="Components/Images/bt6.png" alt="badminton"/>                           
+                    </div>
+    
+                    <!--  SQUARE AVATAR XL-->
+                    <div class="avatar avatar-sq s-xl">
+                      <img src="Components/Images/bt5.png" alt="badminton"/>
+                    </div>     
+    
+                    <!--  SQUARE AVATAR L-->
+                    <div class="avatar avatar-sq s-l">
+                      <img src="Components/Images/bt4.png" alt="badminton"/>
+                    </div>    
+    
+                    <!--  SQUARE AVATAR M-->
+                    <div class="avatar avatar-sq s-m">  
+                      <img src="Components/Images/bt3.png" alt="badminton"/>
+                    </div>            
+    
+                    <!--  SQUARE AVATAR S-->
+                    <div class="avatar avatar-sq s-s">
+                      <img src="Components/Images/bt2.png" alt="badminton"/>
+                    </div>     
+    
+                    <!--  SQUARE AVATAR XS-->
+                    <div class="avatar avatar-sq s-xs">
+                      <img src="Components/Images/bt1.png" alt="badminton"/>
+                    </div>       
+                </script>   
 
                  <hr>
 
@@ -293,17 +361,37 @@
                  </div>
 
                  <!-- CODE SNIPPET FOR AVATAR ON HOVER  -->
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        class="lazyload"
-                        loading="lazy"
-                        src="https://carbon.now.sh/embed/dCWEDGba7YfAUAd7rh4S"
-                        style="width: 1022px; height: 685px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                     </code>
-                 </div>         
+                 <script type="text/plain" class="line-numbers language-markup">
+                    <!--  AVATAR ON HOVER XXL-->
+                    <div class="avatar avatar-hover s-xxl">
+                        <img src="Components/Images/bt6.png" alt="badminton"/>                       
+                    </div>
+  
+                    <!--  AVATAR ON HOVER XL-->
+                    <div class="avatar avatar-hover s-xl">
+                        <img src="Components/Images/bt5.png" alt="badminton"/>
+                    </div>     
+  
+                    <!--  AVATAR ON HOVER L-->
+                    <div class="avatar avatar-hover s-l">
+                        <img src="Components/Images/bt4.png" alt="badminton"/>
+                    </div>    
+  
+                    <!--  AVATAR ON HOVER M-->
+                    <div class="avatar avatar-hover s-m">  
+                        <img src="Components/Images/bt3.png" alt="badminton"/>
+                    </div>            
+  
+                    <!--  AVATAR ON HOVER S-->
+                    <div class="avatar avatar-hover s-s">
+                        <img src="Components/Images/bt2.png" alt="badminton"/>
+                    </div>     
+  
+                    <!--  AVATAR ON HOVER XS-->
+                    <div class="avatar avatar-hover s-xs">
+                        <img src="Components/Images/bt1.png" alt="badminton"/>
+                    </div>            
+                </script>      
                  
                  <hr>
 
@@ -351,17 +439,21 @@
                  </div>
 
                  <!-- CODE SNIPPET FOR TEXT AVATAR  -->
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        class="lazyload"
-                        loading="lazy"
-                        src="https://carbon.now.sh/embed/3LFXg2pKBud9fIOvtINd"
-                        style="width: 1024px; height: 398px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin" >
-                      </iframe>
-                     </code>
-                 </div>                    
+                 <script type="text/plain" class="line-numbers language-markup">
+                    <!--  TEXT AVATAR CIRCULAR XXL WITH BG-1-->
+                    <div class="avatar avatar-text bg-1 s-xxl">
+                        <h2>MS</h2>
+                    </div>
+                    <!--  TEXT AVATAR ON HOVER XL WITH BG-2-->
+                    <div class="avatar avatar-hover avatar-text bg-2 s-xl">
+                        <h2>YK</h2>
+                    </div>                        
+
+                    <!--  TEXT SQUARE AVATAR L WITH BG-3 -->
+                    <div class="avatar avatar-sq avatar-text bg-3 s-l">
+                        <h2>RS</h2>
+                    </div>            
+                </script>                     
 
             </div>
 
@@ -426,18 +518,38 @@
                    
                 </div>
                 
-                 
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        class="lazyload"
-                        loading="lazy"
-                        src="https://carbon.now.sh/embed/UzGzj7vbz4Djc3fclYaG"
-                        style="width: 770px; height: 595px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                     </code>
-                 </div>
+                <!-- CODE SNIPPET FOR  CIRCULAR AVATAR WITH GREEN BADGE -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  CIRCULAR AVATAR XXL WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                    <div class="avatar avatar-badge s-xxl">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-xxl bd-bottom-left"></span>
+                    </div>
+
+                      <!--  CIRCULAR AVATAR XXL WITH RED BADGE XXL SIZE ON BOTTOM-RIGHT SIDE -->
+                    <div class="avatar avatar-badge s-xxl">
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-xxl bd-bottom-right"></span>
+                    </div>                    
+
+                    <!--  CIRCULAR AVATAR XL WITH GREY BADGE XL SIZE ON TOP-RIGHT SIDE-->
+                    <div class="avatar avatar-badge s-xl">
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                        <span class="av-badge bd-grey bd-xl bd-top-right"></span>
+                    </div>     
+
+                    <!--  CIRCULAR AVATAR L WITH RED BADGE L SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-badge s-l">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-l bd-bottom-right"></span>
+                    </div>    
+
+                    <!--  CIRCULAR AVATAR M WITH GREEN BADGE MD SIZE ON BOTTOM-RIGHT SIDE -->
+                    <div class="avatar avatar-badge s-m">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-md bd-bottom-right"></span>
+                    </div>             
+                </script>    
 
                  <hr>
 
@@ -509,21 +621,468 @@
                 </div>
                 
                  
-                 <div class="code-snippet">
-                     <code>
-                        <iframe
-                        src="https://carbon.now.sh/embed/s8aGxXr0wRe0vFgSrKHg"
-                        style="width: 753px; height: 702px; border:0; transform: scale(1); overflow:hidden;"
-                        sandbox="allow-scripts allow-same-origin">
-                      </iframe>
-                 </div>
+                <!-- CODE SNIPPET FOR  SQUARE AVATAR WITH GREEN BADGE -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  SQUARE AVATAR XXL WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                    <div class="avatar avatar-sq s-xxl">
+                        <img src="lib/assets/avatars/bt6.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-xxl bd-bottom-left"></span>
+                    </div>
 
-                 <hr>                 
+                     <!--  SQUARE AVATAR XXL WITH GREEN BADGE XXL SIZE ON BOTTOM-RIGHT SIDE -->
+                    <div class="avatar avatar-sq s-xxl">
+                        <img src="lib/assets/avatars/bt5.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-xxl bd-bottom-right"></span>
+                    </div>               
+                    
+                     <!--  SQUARE AVATAR XL WITH GREY BADGE XL SIZE ON BOTTOM-RIGHT SIDE -->
+                     <div class="avatar avatar-sq s-xl">
+                        <img src="lib/assets/avatars/bt4.webp" alt="badminton"/>
+                        <span class="av-badge bd-grey bd-xl bd-bottom-right"></span>
+                    </div>                         
+
+                    <!--  SQUARE AVATAR L WITH RED BADGE L SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-sq s-l">
+                        <img src="lib/assets/avatars/bt3.webp" alt="badminton"/>
+                        <span class="av-badge bd-red bd-l bd-bottom-right"></span>
+                    </div>    
+
+                    <!--  SQUARE AVATAR M WITH GREY BADGE MD SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-sq s-m">  
+                        <img src="lib/assets/avatars/bt2.webp" alt="badminton"/>
+                        <span class="av-badge bd-grey bd-md bd-bottom-right"></span>
+                    </div>            
+                    
+                     <!--  SQUARE AVATAR S WITH GREEN BADGE S SIZE ON BOTTOM-RIGHT SIDE-->
+                    <div class="avatar avatar-sq s-s">
+                        <img src="lib/assets/avatars/bt1.webp" alt="badminton"/>
+                        <span class="av-badge bd-green bd-s bd-bottom-right"></span>
+                    </div>            
+                </script>    
+
+                 <hr>           
+                 
+                 <div class="component-intro">
+                    <h1>Badges on Icons, Text</h1>
+                    <p class="text-lg margin-top-1r">Badges are being used to display a notification count or status information.
+                        <code class="add-code">av-badge</code> 
+                        and also add color classes according to the online status -  
+                        <code class="add-code bd-red"> bd-red</code> , 
+                        <code class="add-code bd-green" > bd-green</code> , 
+                        <code class="add-code bd-grey" >bd-grey</code>.
+                        There are different positions - 
+                        <code class="add-code">bd-bottom-left</code> 
+                        <code class="add-code">bd-bottom-right</code> 
+                        <code class="add-code">bd-top-right</code> etc.
+                        Sizes vary according to the badge - 
+                        <code class="add-code">bd-xxl</code>
+                        <code class="add-code">bd-xl</code>
+                        <code class="add-code">bd-l</code>
+                        <code class="add-code">bd-md</code> 
+                    </p>
+                    
+                    
+                </div>
+
+               
+
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                 
+                    <!--  ICON L WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                    <div class="icon">
+                        <img src="lib/assets/svg/cart.svg"  alt="badminton"/>
+                        <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                    </div>
+
+
+                    <div class="icon">
+                        <span>Text with a badge</span>
+                        <span class="icon-badge bd-green icon-bd-top-right">7</span>
+                
+                    </div>
+                
+
+                    <div class="icon">
+                        <button class="bd-btn" id="btn-action" title="Click Me to perform ACTION!!!">ClickMe</button>        
+                        <span id="counter" class="icon-badge bd-red icon-bd-top-right">7</span>
+                
+                    </div>
+                
+                
+                
+                    <div class="icon">
+                
+                        <button class="bd-btn" id="btn-hide" title="Click Me to Hide Badge!!!">Hide</button>        
+                        <span id="hide-me" class="icon-badge bd-red icon-bd-top-right">7</span>
+                
+                    </div>                    
+
+                </div>
+                
+                <!-- CODE SNIPPET FOR BADGES ON ICONS TEXT -->
+                <script type="text/plain" class="line-numbers language-markup">
+
+                    <!--  ICON L WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                    <div class="icon">
+                        <img src="lib/assets/svg/cart.svg"  alt="badminton"/>
+                        <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                    </div>
+
+
+                    <div class="icon">
+                        <span>Text with a badge</span>
+                        <span class="icon-badge bd-green icon-bd-top-right">7</span>
+                
+                    </div>
+                
+
+                    <div class="icon">
+                        <button class="bd-btn" id="btn-action" title="Click Me to perform ACTION!!!">ClickMe</button>        
+                        <span id="counter" class="icon-badge bd-red icon-bd-top-right">7</span>
+                
+                    </div>
+                
+                
+                
+                    <div class="icon">
+                
+                        <button class="bd-btn" id="btn-hide" title="Click Me to Hide Badge!!!">Hide</button>        
+                        <span id="hide-me" class="icon-badge bd-red icon-bd-top-right">7</span>
+                
+                    </div>     
+                </script>    
+
+            </div>     
+            
+            
+            <hr>
+
+            <div id="button">
+
+                <div class="component-intro">
+                    <h1>Button</h1>
+                    <p class="text-lg margin-top-1r">Buttons are also called as call to action. 
+                        We have range of buttons and their states. 
+                        You may use a tag or button element and with that use the class
+                        <code class="add-code">btn</code>, you need to add respective classes, and you are good to go.
+                    </p>
+                 
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  PRIMARY BUTTONS -->  
+                    <button class="btn btn-primary">Primary Button</button>
+
+                    <button class="btn btn-primary btn-bold ">Primary Bold Button</button>
+
+                    <button class="btn btn-primary btn-bolder">Primary Bolder Button</button>
+                    <!--  SECONDARY BUTTONS -->                                         
+                    <button class="btn btn-secondary ">Secondary Button</button>
+
+                    <button class="btn btn-secondary btn-bold">Secondary Bold Button</button>
+
+                    <button class="btn btn-secondary btn-bolder">Secondary Bolder Button</button>
+        
+                </div>
+                
+                <!-- CODE SNIPPET FOR BUTTONS -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  PRIMARY BUTTONS -->  
+                    <button class="btn btn-primary">Primary Button</button>
+
+                    <button class="btn btn-primary btn-bold ">Primary Bold Button</button>
+
+                    <button class="btn btn-primary btn-bolder">Primary Bolder Button</button>
+                    <!--  SECONDARY BUTTONS -->                                          
+                    <button class="btn btn-secondary ">Secondary Button</button>
+
+                    <button class="btn btn-secondary btn-bold">Secondary Bold Button</button>
+
+                    <button class="btn btn-secondary btn-bolder">Secondary Bolder Button</button>
+                </script>    
+
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Rounded Button</h1>
+                    <p class="text-lg margin-top-1r">Buttons are also called as call to action. 
+                        We have range of buttons and their states. 
+                        You may use a tag or button element and with that use the class
+                        <code class="add-code">btn</code>, you need to add respective classes, and you are good to go.
+                    </p>
+                 
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    
+                    <!--  ROUNDED BUTTONS -->
+                    <button class="btn btn-primary btn-round">Primary Button</button>
+
+                    <button class="btn btn-primary btn-bold btn-round">Primary Bold Button</button>
+
+                    <button class="btn btn-primary btn-bolder btn-round">Primary Bolder Button</button>
+                                       
+                    <button class="btn btn-secondary btn-round">Secondary Button</button>
+
+                    <button class="btn btn-secondary btn-bold btn-round">Secondary Bold Button</button>
+
+                    <button class="btn btn-secondary btn-bolder btn-round">Secondary Bolder Button</button>
+        
+                </div>
+                
+                <!-- CODE SNIPPET FOR ROUNDED BUTTONS -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    
+                    <!--  ROUNDED BUTTONS -->
+                    <button class="btn btn-primary btn-round">Primary Button</button>
+
+                    <button class="btn btn-primary btn-bold btn-round">Primary Bold Button</button>
+
+                    <button class="btn btn-primary btn-bolder btn-round">Primary Bolder Button</button>
+                                       
+                    <button class="btn btn-secondary btn-round">Secondary Button</button>
+
+                    <button class="btn btn-secondary btn-bold btn-round">Secondary Bold Button</button>
+
+                    <button class="btn btn-secondary btn-bolder btn-round">Secondary Bolder Button</button>
+                            
+                </script>     
+                 
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Rounded To Standard Buttons</h1>
+                    <p class="text-lg margin-top-1r">Buttons are also called as call to action. 
+                        We have range of buttons and their states. 
+                        You may use a tag or button element and with that use the class
+                        <code class="add-code">btn</code>, you need to add respective classes, and you are good to go.
+                    </p>
+                 
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+
+                    <!--  ROUNDED TO STANDARD BUTTONS -->
+                    <button class="btn btn-primary btn-round btn-spl">Primary Button</button>
+
+                    <button class="btn btn-primary btn-bold btn-round btn-spl">Primary Bold Button</button>
+
+                    <button class="btn btn-primary btn-bolder btn-round btn-spl">Primary Bolder Button</button>
+                                       
+                    <button class="btn btn-secondary btn-round btn-spl">Secondary Button</button>
+
+                    <button class="btn btn-secondary btn-bold btn-round btn-spl">Secondary Bold Button</button>
+
+                    <button class="btn btn-secondary btn-bolder btn-round btn-spl">Secondary Bolder Button</button>
+        
+                </div>
+                               
+                <!-- CODE SNIPPET FOR ROUNDED TO STANDARD BUTTONS -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  ROUNDED TO STANDARD BUTTONS -->
+                    <button class="btn btn-primary btn-round btn-spl">Primary Button</button>
+
+                    <button class="btn btn-primary btn-bold btn-round btn-spl">Primary Bold Button</button>
+
+                    <button class="btn btn-primary btn-bolder btn-round btn-spl">Primary Bolder Button</button>
+                                       
+                    <button class="btn btn-secondary btn-round btn-spl">Secondary Button</button>
+
+                    <button class="btn btn-secondary btn-bold btn-round btn-spl">Secondary Bold Button</button>
+
+                    <button class="btn btn-secondary btn-bolder btn-round btn-spl">Secondary Bolder Button</button>
+                </script>                     
+                    
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Outline Round Buttons</h1>
+                    <p class="text-lg margin-top-1r">Buttons are also called as call to action. 
+                        We have range of buttons and their states. 
+                        You may use a tag or button element and with that use the class
+                        <code class="add-code">btn</code>, you need to add respective classes, and you are good to go.
+                    </p>
+                 
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    <!--  OUTLINE BUTTONS -->
+                    <button class="btn btn-outline btn-round ">Outline Button</button>
+
+                    <button class="btn btn-outline btn-bold btn-round">Outline Bold Button</button>
+
+                    <button class="btn btn-outline btn-bolder btn-round">Outline Bolder Button</button>
+                                       
+                    <button class="btn btn-outline-s btn-round">Outline Button</button>
+
+                    <button class="btn btn-outline-s btn-bold btn-round">Outline Bold Button</button>
+
+                    <button class="btn btn-outline-s btn-bolder btn-round">Outline Bolder Button</button>
+        
+                </div>
+                
+                 
+                <!-- CODE SNIPPET FOR OUTLINE BUTTONS -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  OUTLINE BUTTONS -->
+                    <button class="btn btn-outline btn-round ">Outline Button</button>
+
+                    <button class="btn btn-outline btn-bold btn-round">Outline Bold Button</button>
+
+                    <button class="btn btn-outline btn-bolder btn-round">Outline Bolder Button</button>
+                                       
+                    <button class="btn btn-outline-s btn-round">Outline Button</button>
+
+                    <button class="btn btn-outline-s btn-bold btn-round">Outline Bold Button</button>
+
+                    <button class="btn btn-outline-s btn-bolder btn-round">Outline Bolder Button</button>        
+                </script>                   
+
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Outline Round to Standard Buttons</h1>
+                    <p class="text-lg margin-top-1r">Buttons are also called as call to action. 
+                        We have range of buttons and their states. 
+                        You may use a tag or button element and with that use the class
+                        <code class="add-code">btn</code>, you need to add respective classes, and you are good to go.
+                    </p>
+                 
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    <!--  OUTLINE ROUND TO STANDARD BUTTONS -->
+                    <button class="btn btn-outline btn-round btn-spl">Outline Button</button>
+
+                    <button class="btn btn-outline btn-bold btn-round btn-spl">Outline Bold Button</button>
+
+                    <button class="btn btn-outline btn-bolder btn-round btn-spl">Outline Bolder Button</button>
+                                       
+                    <button class="btn btn-outline-s btn-round btn-spl">Outline Button</button>
+
+                    <button class="btn btn-outline-s btn-bold btn-round btn-spl">Outline Bold Button</button>
+
+                    <button class="btn btn-outline-s btn-bolder btn-round btn-spl">Outline Bolder Button</button>
+        
+                </div>
+                
+                <!-- CODE SNIPPET FOR OUTLINE ROUND TO STANDARD BUTTONS -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  OUTLINE ROUND TO STANDARD BUTTONS -->
+                    <button class="btn btn-outline btn-round btn-spl">Outline Button</button>
+
+                    <button class="btn btn-outline btn-bold btn-round btn-spl">Outline Bold Button</button>
+
+                    <button class="btn btn-outline btn-bolder btn-round btn-spl">Outline Bolder Button</button>
+                                       
+                    <button class="btn btn-outline-s btn-round btn-spl">Outline Button</button>
+
+                    <button class="btn btn-outline-s btn-bold btn-round btn-spl">Outline Bold Button</button>
+
+                    <button class="btn btn-outline-s btn-bolder btn-round btn-spl">Outline Bolder Button</button>
+        
+                </script>          
+                 
+                 <hr>
+
+                 <div class="component-intro">
+                    <h1>Button with Icons , Text , Disabled , Floating Button</h1>
+                    <p class="text-lg margin-top-1r">Buttons are also called as call to action. 
+                        We have range of buttons and their states. 
+                        You may use a tag or button element and with that use the class
+                        <code class="add-code">btn</code>, you need to add respective classes, and you are good to go.
+                    </p>
+                 
+                    
+                </div>
+
+                <div class="component-show-container flex-row-wrap">
+                    <!--  OUTLINE BUTTONS -->
+                    <button class="btn btn-txt ">Text Button</button>
+
+                    <button class="btn btn-primary ">
+                        <i class="fas fa-shopping-cart"></i>
+                    </button>
+
+                    <button class="btn btn-primary ">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button> 
+
+                    <button class="btn btn-outline btn-round ">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>                    
+
+                    <button class="btn btn-outline btn-round btn-spl">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>        
+                    
+                    <button class="btn btn-secondary ">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>        
+                    
+                    <button class="btn btn-secondary btn-round">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>                    
+
+                    <button class="btn btn-outline-s btn-round">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>
+
+                    <button class="btn btn-outline-s btn-round btn-spl">
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>
+
+
+                    <button id="btnID" class="btn btn-primary" disabled>
+                        <i class="btn-cart fas fa-shopping-cart"></i>
+                        Add To Cart
+                    </button>       
+                    
+                    <a href="#" class="btn btn-primary btn-float" title="Scroll To Top!!">
+                        <i class="fas fa-chevron-up"></i>
+                    </a>
+
+                </div>
+                
+                 
+                <!-- CODE SNIPPET FOR OUTLINE ROUND TO STANDARD BUTTONS -->
+                <script type="text/plain" class="line-numbers language-markup">
+                    <!--  OUTLINE ROUND TO STANDARD BUTTONS -->
+                    <button class="btn btn-outline btn-round btn-spl">Outline Button</button>
+
+                    <button class="btn btn-outline btn-bold btn-round btn-spl">Outline Bold Button</button>
+
+                    <button class="btn btn-outline btn-bolder btn-round btn-spl">Outline Bolder Button</button>
+                                       
+                    <button class="btn btn-outline-s btn-round btn-spl">Outline Button</button>
+
+                    <button class="btn btn-outline-s btn-bold btn-round btn-spl">Outline Bold Button</button>
+
+                    <button class="btn btn-outline-s btn-bolder btn-round btn-spl">Outline Bolder Button</button>
+        
+                </script>                     
 
             </div>            
 
+
         </section>
     </div>
-    <script src="lib/Components/Alerts/alerts.js"></script>
+    <script src="/lib/Components/Alerts/alerts.js"></script>
+    <script src="/lib/Components/Badges/badges.js"></script>
+    <script src="/lib/assets/prism/prism.js"></script>
 </body>
 </html>
