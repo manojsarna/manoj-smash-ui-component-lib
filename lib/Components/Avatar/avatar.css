@@ -46,10 +46,7 @@
     height: 4rem;
 }
 
-.sui_avatar img {
-    border-radius: 50%;
-    overflow: hidden;
-  }
+
 
 .avatar img{
     max-width: 100%;
