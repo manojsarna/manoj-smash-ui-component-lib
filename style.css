@@ -57,7 +57,7 @@ hr{
     margin-top: 1rem;
 }
 
-/* PRISM */
+/* PRISM  STARTS */
 
 div.code-toolbar > .toolbar{
     opacity: 1;
@@ -105,27 +105,7 @@ div.code-toolbar>.toolbar>.toolbar-item>button:active {
 top: 1px;
 }
 
-/* 
-transition: all 0.5s;
-box-shadow: 0 0 10px 10px white; */
-
-
-/* --- CARBON CODE SNIPPET --- */
-
-.code-snippet{
-    text-align: center;
-    max-height: 30rem;
-
-    background-color: var( --COLOR-CODE-BG);
-    margin:auto;
-    overflow: auto;
-    border-radius: 5px;
-}
-
-.code-snippet iframe{
-    width: 100%;
-    border: none;
-}
+/* PRISM  ENDS */
 
 .add-code{
     font-family: var(--FONT-CODE);
@@ -295,13 +275,13 @@ box-shadow: 0 0 10px 10px white; */
 
 
 .btn-float{
-    width: 7rem;
-    height:7rem;
+    width: 5rem;
+    height:5rem;
     border-radius: 50%;
     display: grid;
     place-content: center;
     text-decoration: none;
-    font-size: 3rem;
+    font-size: 2.5rem;
     position: fixed;
     bottom: 2rem;
     right: 2rem;
