@@ -188,20 +188,20 @@ box-shadow: 0 0 10px 10px white; */
     position: relative;
     border-radius:5px;
     padding:1rem 1.5rem;
-    transition: all ease-in-out 0.5s;
+    transition: all ease-in 0.1s;
 }
 
 .btn:active {
-    bottom: 1px;
+    transform:scale(0.98);
 }
-
 
 .btn-primary{
     color:var(--COLOR-BLACK);
     background: var(--COLOR-DARKEN-1);
     border:2px solid var(--COLOR-DARKEN-1);
-
+    transition: background ease-in 0.5s,border ease-in 0.5s;
 }
+
 .btn-primary:hover{
     cursor: pointer;
     background: var(--COLOR-DARKEN-HOVER-1);
@@ -210,12 +210,15 @@ box-shadow: 0 0 10px 10px white; */
 
 .btn-secondary{
     background: var(--COLOR-DARKEN-4);
+    color:var(--COLOR-WHITE);
     border:2px solid var(--COLOR-DARKEN-4);
+    transition: background ease-in 0.5s,border ease-in 0.5s;
 }
 .btn-secondary:hover{
     cursor: pointer;
     background: var(--COLOR-DARKEN-2);
     border:2px solid var(--COLOR-DARKEN-2);
+    
 }
 
 
@@ -237,39 +240,39 @@ box-shadow: 0 0 10px 10px white; */
 
 .btn-spl{
     border-radius:5rem;
+    transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }
 .btn-spl:hover{
     border-radius:5px;
-    transition: all ease-in-out 0.5s;
 }
-
 
 .btn-outline{
     color:var(--COLOR-BLACK);
     border:2px solid var(--COLOR-DARKEN-1);
+    transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }
 .btn-outline:hover{
     cursor:pointer;
     background: var(--COLOR-DARKEN-1);
     border:2px solid var(--COLOR-DARKEN-1);
-    transition: all ease-in-out 0.5s;
 }
 
 .btn-outline-s{
     color:var(--COLOR-BLACK);
     border:2px solid var(--COLOR-DARKEN-4);
+    transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }
 .btn-outline-s:hover{
     cursor:pointer;
     color:var(--COLOR-WHITE);
     background: var(--COLOR-DARKEN-4);
     border:2px solid var(--COLOR-DARKEN-4);
-    transition: all ease-in-out 0.5s;
 }
 
 .btn-txt{
     background: none;
     border: none;
+    cursor: pointer;
     text-decoration: underline var(--COLOR-DARKEN-4);
     text-underline-offset: 5px;
 }
@@ -279,7 +282,6 @@ box-shadow: 0 0 10px 10px white; */
     border: none;
     text-decoration: underline var(--COLOR-DARKEN-4);
     color: var(--COLOR-DARKEN-4);
-    
 }
 
 .btn-cart{
@@ -307,6 +309,3 @@ box-shadow: 0 0 10px 10px white; */
     opacity: 0.90;
 }
 
-.btn.btn-float:active{
-    top:none;
-}
