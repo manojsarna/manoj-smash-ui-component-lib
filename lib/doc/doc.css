@@ -1,0 +1,273 @@
+@import "/lib/Components/core.css";
+@import "/lib/Components/prismstyle.css";
+@import "/lib/Components/utilities.css";
+@import "/lib/Components/Alerts/alerts.css";
+@import "/lib/Components/Avatar/avatar.css";
+@import "/lib/Components/Badges/badges.css";
+@import "/lib/Components/Button/button.css";
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    min-height:100vh;
+    font-size:1.6rem;
+    font-weight: 500;
+    color:var(--COLOR-FONT);
+    background: var(--COLOR-BG);    
+    /* width:100%; */
+    display:grid;
+    grid-template-areas: 
+    "header header "
+    "nav main "
+    "footer footer ";
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 7rem 1fr 7rem;
+    margin:auto;
+    max-width: 120rem;
+    height: 100vh;
+}
+
+
+/* HEADER STARTS */
+
+.sm-header{
+
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    grid-area: header;
+    padding: 0 4rem;
+    border-bottom: 2px solid var(--COLOR-PRIMARY);
+    position: relative;
+    width: 100%;
+    top:0;
+    background: var(--COLOR-BG);
+}
+
+.flex-center-wrap{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.sm-header-logo > svg{
+    width: 4rem;
+}
+
+
+.sm-header-logo > svg path,circle,polygon{
+    fill:var(--COLOR-HEADER-FONT-DARK);
+}
+
+
+.sm-header-logo > h1{
+    font-family: 'Oswald', sans-serif;
+     font-size: 4rem;
+    font-weight: 700; 
+    color:var(--COLOR-HEADER-FONT-DARK);
+    cursor: default;
+    
+   
+} 
+
+.sm-header-nav{
+    gap: 1rem;
+}
+
+.header-nav-btn{
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 2rem;
+    padding:1rem 1.5rem;
+    font-weight: 700;
+    color:var(--COLOR-HEADER-FONT-DARK);
+    transition: all ease-in 0.1s;
+    text-decoration:none;
+}
+
+.header-nav-btn:hover{
+    color: var(--COLOR-HEADER-FONT-DARK-HOVER);
+}
+
+.sm-header-social{
+    gap:3rem;
+}
+
+.s-icon{
+    text-decoration: none;
+}
+
+.btn-social{
+    outline: none;
+    border:none;
+    background: none;
+    color: var(--COLOR-HEADER-FONT-DARK);
+    cursor: pointer;
+    font-size:2.5rem;
+    transition: color ease-in 0.2s
+}
+
+.btn-social:hover{
+    color: var(--COLOR-HEADER-FONT-DARK-HOVER);
+}
+
+
+/* HEADER ENDS */
+
+
+/* NAV STARTS */
+.sm-nav{
+    grid-area: nav;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 4rem;
+    padding-top: 4rem;
+    font-size: 2rem;
+    position: relative;
+}
+
+.sm-nav-links{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.sm-nav-item{
+    text-decoration: none;
+    color:var(--COLOR-FONT); 
+    padding: 0.7rem;
+    transition: all ease-in 0.2s;
+}
+
+.sm-nav-item:hover{
+    color:var(--COLOR-DARKEN-1);
+    border-bottom: 1px solid var(--COLOR-DARKEN-1);
+}
+
+.sm-nav-item-selected{
+    color:var(--COLOR-DARKEN-1);
+    border-bottom: 1px solid var(--COLOR-DARKEN-1);
+}
+
+.sm-nav-title{
+    padding-top: 2rem;
+    font-weight: 800;
+    cursor: default;
+}
+
+/* NAV ENDS */
+
+/* MAIN STARTS */
+
+.sm-main{
+    scroll-behavior: smooth;
+    grid-area: main;
+    padding: 1rem 4rem;
+    display: flex;
+    flex-direction: column;
+    overflow-y: auto;
+    position: relative;
+}
+
+.sm-main h1{
+    font-size: 4rem;
+}
+
+/* MAIN ENDS */
+
+.sm-footer{
+    grid-area: footer;
+    display: grid;
+    place-content: center;
+}
+
+
+.header-hb-nav{
+    display: none;
+}
+
+.btn-social-show{
+    display: block;
+}
+
+
+.btn-social-hide{
+    display: none;
+}
+
+.header-mobile-social,
+.header-mobile-nav{
+    display: none;
+}
+
+.sm-nav.sm-nav-show{
+    display:flex;
+}
+
+/* MEDIA QUERIES */
+
+@media only screen and (max-width:768px){
+    body{
+        grid-template-areas: 
+        "header"
+        "main"
+        "footer";
+    }
+
+
+    .sm-header-logo{
+        flex-grow:1;
+    }
+
+    .header-mobile-social,
+.header-mobile-nav{
+    display: block;
+}
+
+    .sm-header-nav{
+        display: none;
+    }
+ 
+
+    .btn-social-show{
+        display: none;
+    }
+    
+    
+    .btn-social-hide{
+        display: block;
+        position: relative;
+    }
+
+    .sm-nav{
+        display: none;
+        position: absolute;
+        background: var(--COLOR-BG);
+        z-index: 20;
+        width: 100%;
+        min-height: 100vh;
+        margin: 0;
+        padding: 2rem;
+        font-size: 1.3rem;
+        top: 7rem;
+        flex-direction: column;
+        
+    }
+
+    .header-mobile-social{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap:3rem;
+    }
+}
+
+

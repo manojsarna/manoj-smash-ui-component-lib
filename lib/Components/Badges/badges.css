@@ -7,7 +7,7 @@
 .av-badge{
    position: absolute;
    border-radius: 50%;
-   border: 5px solid var(--COLOR-WHITE);
+   border: 5px solid var(--COLOR-SCROLL);
 }
 
 .bd-xxl{
@@ -80,8 +80,14 @@
     border-radius: 50%;
     display: grid;
     place-content: center;
-    color: var(--COLOR-WHITE);
+    color: var(--COLOR-WHITE-ALWAYS);
 }
+
+.icon .fas{
+    font-size: 3rem;
+}
+
+
 
 .icon-bd-top-right{
     width: 2.2rem;
@@ -97,7 +103,7 @@
     cursor: pointer;
     font-weight: 600;
     padding: 5px;
-    color: var(--COLOR-WHITE);
+    color: var(--COLOR-SCROLL);
     border:2px solid var(--COLOR-DARKEN-2);
     border-radius: 5px;
     background: var(--COLOR-DARKEN-2);

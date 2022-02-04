@@ -1,0 +1,49 @@
+/* PRISM  STARTS */
+
+div.code-toolbar > .toolbar{
+    opacity: 1;
+    top:0.8em;
+    right:1.6em;
+}
+
+pre[class*=language-] {
+    border: none;
+    max-height: 30rem;
+    background: var( --COLOR-CODE-BG);
+}
+
+.language-markup .token {
+    color: var(--COLOR-LIGHTEN-1);
+}
+
+.language-markup .token.tag {
+      color: var(--COLOR-LIGHTEN-1);
+}
+
+div.code-toolbar>.toolbar>.toolbar-item>button{
+    position: relative;
+    padding: 0.5em;
+    font-size: 1em;
+    font-weight: 600;
+    background: var(--COLOR-DARKEN-1);
+    color: var(--COLOR-BLACK);
+    cursor: pointer;
+    opacity: 0.92;
+    transition: all ease-in-out 0.5s;
+}
+
+div.code-toolbar>.toolbar>.toolbar-item>button:hover{
+
+    font-weight: 600;
+    background: var(--COLOR-LIGHTEN-3);
+    color: var(--COLOR-BLACK);
+    cursor: pointer;
+    opacity: 0.95;
+    transition: all ease-in-out 0.5s;
+}
+
+div.code-toolbar>.toolbar>.toolbar-item>button:active {
+top: 1px;
+}
+
+/* PRISM  ENDS */

@@ -28,6 +28,7 @@
         --COLOR-DARK-PRIMARY:#1dd800;
 
         --COLOR-GREY:#60686c;
+        --COLOR-GREY-BADGE:#818997;
         --COLOR-RED:#cc0000;
         --COLOR-GREEN:#85a428;
 
@@ -36,11 +37,13 @@
         --COLOR-BG-WHITE:#FFFFFF;
         --COLOR-BG-LIGHTGREEN:#f1ffeb;
         --COLOR-BG-DARK:#07090a;
+        --COLOR-BG-DARK-R:#040404;
 
         --COLOR-BADGE-LIGHT:#f1ffeb;
         --COLOR-BADGE-DARK:#23272a;
 
         --COLOR-WHITE:#ffffff;
+        --COLOR-WHITE-ALWAYS:#ffffff;
         --COLOR-BLACK:#000000;
         /* COLOR PALETTE LIGHTEN 10% */
 
@@ -89,7 +92,10 @@
          
          
         /* TEXT COLOR */
-    
+        /* DARK THEME */
+        --COLOR-FONT:black;
+        --COLOR-BG:white;
+
         --COLOR-TEXT-BLACK:#000000;
         --COLOR-TEXT-GREY:#999999;
         --COLOR-TEXT-WHITE:#fff;
@@ -120,6 +126,26 @@
 
     }
 
+
+    html[data-theme='light'] {
+        --COLOR-BG:white  ;
+        --COLOR-FONT: black;
+        --COLOR-SCROLL:white;
+        --COLOR-HEADER-FONT-DARK:#11A300;
+        --COLOR-HEADER-FONT-DARK-HOVER:#5EF046;        
+        
+        
+    }
+    
+    html[data-theme='dark'] {
+        --COLOR-BG:#040404  ;
+        --COLOR-FONT: white;
+        --COLOR-SCROLL:#040404;
+        --COLOR-HEADER-FONT-DARK:#44d62c;
+        --COLOR-HEADER-FONT-DARK-HOVER:#73e161;
+    }
+
+
     input,
     button,
     textarea,
@@ -127,12 +153,46 @@
         font: inherit;
     }
 
-
     * {
         margin:0;
         padding:0;
         box-sizing: border-box;
         word-wrap:break-word;
+    }
+
+    ul[role="list"],
+    ol[role="list"],ul {
+    list-style: none;
+    }
+
+    html:focus-within {
+    scroll-behavior: smooth;
+    }
+
+    body {
+    min-height: 100vh;
+    text-rendering: optimizeSpeed;
+    line-height: 1.5;
+    }
+
+    img,
+    picture {
+    max-width: 100%;
+    display: block;
+    }
+
+    ::-webkit-scrollbar {
+    width: 5px;
+    height: 5px;
+    }
+    
+    ::-webkit-scrollbar-track {
+    background-color: var(--COLOR-SCROLL);
+    }
+    
+    ::-webkit-scrollbar-thumb {
+    background-color: var(--COLOR-PRIMARY);
+    border-radius: 5px;
     }
 
     

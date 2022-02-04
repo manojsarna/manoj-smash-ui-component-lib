@@ -1,16 +1,17 @@
 @import "/lib/Components/core.css";
+@import "/lib/Components/prismstyle.css";
+@import "/lib/Components/utilities.css";
 @import "/lib/Components/Alerts/alerts.css";
 @import "/lib/Components/Avatar/avatar.css";
 @import "/lib/Components/Badges/badges.css";
+@import "/lib/Components/Button/button.css";
 
 html{
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
-    /* background: var(--COLOR-LIGHTEN-6); */
 }
 
 body{
-    /* max-width: 120rem; */
     min-height:100vh;
     font-size:1.6rem;
     font-weight: 500;
@@ -23,269 +24,11 @@ body{
 }
 
 .container{
-    /* margin:2rem 4rem; */
     padding: 3rem;
     width:100%;
-}
-
-img{
-    max-width: 100%;
-    display: block;
 }
 
 .section-main{
     display: flex;
     flex-direction: column;
 }
-
-hr{
-    color: var(--COLOR-PRIMARY) ;
-    margin:3rem 0;
-    border:0;
-    border-top: 1px solid var(--COLOR-PRIMARY); 
-}
-
-.header{
-    padding-bottom: 2rem;
-}
-
-.text-lg{
-    font-size: 1.8rem;
-}
-
-.margin-top-1r{
-    margin-top: 1rem;
-}
-
-/* PRISM  STARTS */
-
-div.code-toolbar > .toolbar{
-    opacity: 1;
-    top:0.8em;
-    right:1.6em;
-}
-
-pre[class*=language-] {
-    border: none;
-    max-height: 30rem;
-    background: var( --COLOR-CODE-BG);
-}
-
-.language-markup .token {
-    color: var(--COLOR-LIGHTEN-1);
-}
-
-.language-markup .token.tag {
-      color: var(--COLOR-LIGHTEN-1);
-}
-
-div.code-toolbar>.toolbar>.toolbar-item>button{
-    position: relative;
-    padding: 0.5em;
-    font-size: 1em;
-    font-weight: 600;
-    background: var(--COLOR-DARKEN-1);
-    color: var(--COLOR-BLACK);
-    cursor: pointer;
-    opacity: 0.92;
-    transition: all ease-in-out 0.5s;
-}
-
-div.code-toolbar>.toolbar>.toolbar-item>button:hover{
-
-    font-weight: 600;
-    background: var(--COLOR-LIGHTEN-3);
-    color: var(--COLOR-BLACK);
-    cursor: pointer;
-    opacity: 0.95;
-    transition: all ease-in-out 0.5s;
-}
-
-div.code-toolbar>.toolbar>.toolbar-item>button:active {
-top: 1px;
-}
-
-/* PRISM  ENDS */
-
-.add-code{
-    font-family: var(--FONT-CODE);
-    color:var(--COLOR-WHITE);
-    font-size: 1.5rem;
-    margin: 2px;
-    font-weight: bolder;
-    background: var(--COLOR-DARKEN-4);
-    padding: 1px 5px;
-    border-radius: 5px;
-}
-
-.m-t-b-1{
-    margin:1rem 0;
-}
-
-.component-show-container{
-    
-    padding: 2rem;
-    margin: 2rem 0;
-    border:1px solid var(--COLOR-LIGHT-PRIMARY);
-    border-radius: 5px;
-    width: 100%;
-    gap:2rem;
-}
-
-.flex-column-wrap{
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-}
-
-.flex-column{
-    display: flex;
-    flex-direction: column;
-    flex-wrap:wrap;
-}
-
-.flex-row-wrap{
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: center;
-    align-items: end;
-    gap: 2rem;
-}
-
-.bd-red{
-    background: var(--COLOR-RED);
-}
-.bd-green{
-    background: var(--COLOR-DARKEN-4);
-}
-.bd-grey{
-    background: var(--COLOR-GREY);
-}
-
-/* buttons */
-
-.btn{
-    position: relative;
-    border-radius:5px;
-    padding:1rem 1.5rem;
-    transition: all ease-in 0.1s;
-}
-
-.btn:active {
-    transform:scale(0.98);
-}
-
-.btn-primary{
-    color:var(--COLOR-BLACK);
-    background: var(--COLOR-DARKEN-1);
-    border:2px solid var(--COLOR-DARKEN-1);
-    transition: background ease-in 0.5s,border ease-in 0.5s;
-}
-
-.btn-primary:hover{
-    cursor: pointer;
-    background: var(--COLOR-DARKEN-HOVER-1);
-    border:2px solid var(--COLOR-DARKEN-HOVER-1);
-}
-
-.btn-secondary{
-    background: var(--COLOR-DARKEN-4);
-    color:var(--COLOR-WHITE);
-    border:2px solid var(--COLOR-DARKEN-4);
-    transition: background ease-in 0.5s,border ease-in 0.5s;
-}
-.btn-secondary:hover{
-    cursor: pointer;
-    background: var(--COLOR-DARKEN-2);
-    border:2px solid var(--COLOR-DARKEN-2);
-    
-}
-
-
-
-
-.btn-bold{
-    font-weight:600;
-}
-
-.btn-bolder{
-    font-weight:700;
-}
-
-
-
-.btn-round{
-    border-radius:5rem;
-}
-
-.btn-spl{
-    border-radius:5rem;
-    transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
-}
-.btn-spl:hover{
-    border-radius:5px;
-}
-
-.btn-outline{
-    color:var(--COLOR-BLACK);
-    border:2px solid var(--COLOR-DARKEN-1);
-    transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
-}
-.btn-outline:hover{
-    cursor:pointer;
-    background: var(--COLOR-DARKEN-1);
-    border:2px solid var(--COLOR-DARKEN-1);
-}
-
-.btn-outline-s{
-    color:var(--COLOR-BLACK);
-    border:2px solid var(--COLOR-DARKEN-4);
-    transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
-}
-.btn-outline-s:hover{
-    cursor:pointer;
-    color:var(--COLOR-WHITE);
-    background: var(--COLOR-DARKEN-4);
-    border:2px solid var(--COLOR-DARKEN-4);
-}
-
-.btn-txt{
-    background: none;
-    border: none;
-    cursor: pointer;
-    text-decoration: underline var(--COLOR-DARKEN-4);
-    text-underline-offset: 5px;
-}
-
-.btn-txt:hover{
-    background: none;
-    border: none;
-    text-decoration: underline var(--COLOR-DARKEN-4);
-    color: var(--COLOR-DARKEN-4);
-}
-
-.btn-cart{
-    margin-right: 5px;
-}
-
-.btn:disabled{
-    pointer-events: none;
-    opacity: 0.7;
-}
-
-
-.btn-float{
-    width: 5rem;
-    height:5rem;
-    border-radius: 50%;
-    display: grid;
-    place-content: center;
-    text-decoration: none;
-    font-size: 2.5rem;
-    position: fixed;
-    bottom: 2rem;
-    right: 2rem;
-    z-index:3;
-    opacity: 0.90;
-}
-
