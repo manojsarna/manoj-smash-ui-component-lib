@@ -62,13 +62,10 @@ body{
 
 
 .sm-header-logo > h1{
-    font-family: 'Oswald', sans-serif;
      font-size: 4rem;
-    font-weight: 700; 
+    font-weight: 800; 
     color:var(--COLOR-HEADER-FONT-DARK);
-    cursor: default;
-    
-   
+    cursor: pointer;
 } 
 
 .sm-header-nav{

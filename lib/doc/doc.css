@@ -65,14 +65,12 @@ body{
 
 
 .sm-header-logo > h1{
-    font-family: 'Oswald', sans-serif;
      font-size: 4rem;
-    font-weight: 700; 
+    font-weight: 800; 
     color:var(--COLOR-HEADER-FONT-DARK);
-    cursor: default;
-    
-   
+    cursor: pointer;
 } 
+
 
 .sm-header-nav{
     gap: 1rem;
@@ -154,6 +152,7 @@ body{
 
 .sm-nav-item-selected{
     color:var(--COLOR-DARKEN-1);
+    font-weight: 700;
     border-bottom: 1px solid var(--COLOR-DARKEN-1);
 }
 
@@ -256,7 +255,7 @@ body{
         min-height: 100vh;
         margin: 0;
         padding: 2rem;
-        font-size: 1.3rem;
+        font-size: 2rem;
         top: 7rem;
         flex-direction: column;
         
