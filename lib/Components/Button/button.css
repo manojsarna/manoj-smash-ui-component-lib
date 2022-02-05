@@ -60,6 +60,7 @@
 
 .btn-outline{
     color:var(--COLOR-BLACK);
+    background: var(--COLOR-WHITE-ALWAYS);
     border:2px solid var(--COLOR-DARKEN-1);
     transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }
@@ -71,6 +72,7 @@
 
 .btn-outline-s{
     color:var(--COLOR-BLACK);
+    background: var(--COLOR-WHITE-ALWAYS);
     border:2px solid var(--COLOR-DARKEN-4);
     transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }

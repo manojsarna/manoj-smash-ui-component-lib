@@ -71,3 +71,8 @@ hr{
 .bd-grey{
     background: var(--COLOR-GREY);
 }
+
+.img-responsive{
+    max-width:100%;
+    height: auto;
+}
