@@ -5,6 +5,7 @@
 @import "/lib/Components/Avatar/avatar.css";
 @import "/lib/Components/Badges/badges.css";
 @import "/lib/Components/Button/button.css";
+@import "/lib/Components/Cards/cards.css";
 
 html{
     scroll-behavior: smooth;
@@ -40,7 +41,7 @@ body{
     flex-wrap: wrap;
     grid-area: header;
     padding: 0 4rem;
-    border-bottom: 2px solid var(--COLOR-PRIMARY);
+    border-bottom: 2px solid var(--COLOR-HEADER-FONT-DARK);
     position: relative;
     width: 100%;
     top:0;
@@ -129,6 +130,7 @@ body{
     padding-top: 4rem;
     font-size: 2rem;
     position: relative;
+    overflow: scroll;
 }
 
 .sm-nav-links{
@@ -137,6 +139,10 @@ body{
     align-items: center;
     gap: 1.5rem;
 }
+
+ .sm-nav::-webkit-scrollbar {
+    display: none;
+  } 
 
 .sm-nav-item{
     text-decoration: none;
@@ -151,9 +157,9 @@ body{
 }
 
 .sm-nav-item-selected{
-    color:var(--COLOR-DARKEN-1);
+    color:var(--COLOR-HEADER-FONT-DARK);
     font-weight: 700;
-    border-bottom: 1px solid var(--COLOR-DARKEN-1);
+    border-bottom: 1px solid var(--COLOR-HEADER-FONT-DARK);
 }
 
 .sm-nav-title{

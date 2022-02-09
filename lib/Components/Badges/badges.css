@@ -103,7 +103,7 @@
     cursor: pointer;
     font-weight: 600;
     padding: 5px;
-    color: var(--COLOR-SCROLL);
+    color: var(--COLOR-BLACK);
     border:2px solid var(--COLOR-DARKEN-2);
     border-radius: 5px;
     background: var(--COLOR-DARKEN-2);
