@@ -44,6 +44,9 @@
 
         --COLOR-WHITE:#ffffff;
         --COLOR-WHITE-ALWAYS:#ffffff;
+
+        --COLOR-WHITE-FOR-FA-BG:rgba(255, 255, 255, 0.85);
+
         --COLOR-BLACK:#000000;
         /* COLOR PALETTE LIGHTEN 10% */
 
