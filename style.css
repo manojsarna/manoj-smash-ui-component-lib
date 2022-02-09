@@ -22,7 +22,7 @@ body{
     "header "
     "main "
     "footer ";
-    grid-template-columns: 1fr;
+    grid-template-columns: auto;
     grid-template-rows: 7rem 1fr 7rem;
     margin:auto;
     max-width: 120rem;
@@ -37,7 +37,7 @@ body{
     flex-wrap: wrap;
     grid-area: header;
     padding: 0 4rem;
-    border-bottom: 2px solid var(--COLOR-PRIMARY);
+    border-bottom: 2px solid var(--COLOR-HEADER-FONT-DARK);
     position: relative;
     width: 100%;
     top:0;
@@ -171,8 +171,15 @@ body{
 
 }
 
-.sm-main h1{
-    font-size: 4rem;
+.container-50{
+    margin: 1.5rem;
+    text-align: center;
+    flex:1;
+}
+
+.sm-main-heading{
+    font-size: 4.5rem;
+    font-weight: 900;
 }
 
 /* MAIN ENDS */
@@ -226,17 +233,6 @@ body{
 }
 
 
-.container-50{
-    margin: 1.5rem;
-    text-align: center;
-    flex:1;
-}
-
-.sm-main-heading{
-    font-size: 4.5rem;
-    font-weight: 900;
-}
-
 .btn-wrapper{
     display: flex;
     justify-content: center;
@@ -261,6 +257,10 @@ body{
 
 /* MEDIA QUERIES */
 
+
+
+
+
 @media only screen and (max-width:700px){
     :root{
         font-size:40%;
@@ -268,6 +268,19 @@ body{
 
     .sm-header-nav{
         display: none;
+    }
+
+    .sm-header{
+        justify-content: center;
+        gap:3rem;
+        padding: 0 2rem;
+        max-width: 90vh;
+        flex-wrap: wrap;
+    }
+
+    .sm-main-heading{
+        font-size: 3rem;
+        font-weight: 900;
     }
 }
 

@@ -60,7 +60,7 @@
 
 .btn-outline{
     color:var(--COLOR-BLACK);
-    background: var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-OUTLINE-BTN-BG);
     border:2px solid var(--COLOR-DARKEN-1);
     transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }
@@ -72,13 +72,13 @@
 
 .btn-outline-s{
     color:var(--COLOR-BLACK);
-    background: var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-OUTLINE-BTN-BG);
     border:2px solid var(--COLOR-DARKEN-4);
     transition: background ease-in 0.5s,border ease-in 0.5s,border-radius ease-in 0.5s;
 }
 .btn-outline-s:hover{
     cursor:pointer;
-    color:var(--COLOR-WHITE-ALWAYS);
+    color:var(--COLOR-OUTLINE-BTN-BG);
     background: var(--COLOR-DARKEN-4);
     border:2px solid var(--COLOR-DARKEN-4);
 }
@@ -87,8 +87,9 @@
     background: none;
     border: none;
     cursor: pointer;
-    color:var(--COLOR-PRIMARY);
-    text-decoration: underline var(--COLOR-PRIMARY);
+    font-weight: 700;
+    color:var(--COLOR-DARKEN-6);
+    text-decoration: underline var(--COLOR-DARKEN-6);
     text-underline-offset: 5px;
 }
 

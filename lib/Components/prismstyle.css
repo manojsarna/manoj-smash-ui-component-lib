@@ -46,4 +46,11 @@ div.code-toolbar>.toolbar>.toolbar-item>button:active {
 top: 1px;
 }
 
+
+pre[class*=language-] {
+
+     box-shadow: none;
+
+}
+
 /* PRISM  ENDS */

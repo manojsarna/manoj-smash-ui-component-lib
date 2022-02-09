@@ -93,6 +93,8 @@
          
         /* TEXT COLOR */
         /* DARK THEME */
+
+        --COLOR-OVERLAY:rgb(234, 234, 236,0.6);
         --COLOR-FONT:black;
         --COLOR-BG:white;
 
@@ -128,21 +130,26 @@
 
 
     html[data-theme='light'] {
-        --COLOR-BG:white  ;
+        /* --COLOR-SCROLL:#050E03; */
+        /* --COLOR-BG:white  ;  d1f5cb #0B1120*/
+        /* --COLOR-CODE-BG:#011627; #d8d8d8*/        
+        --COLOR-BG:#ffffff;
         --COLOR-FONT: black;
-        --COLOR-SCROLL:white;
-        --COLOR-HEADER-FONT-DARK:#11A300;
+        --COLOR-SCROLL:#ffffff;
+        --COLOR-OUTLINE-BTN-BG:#ffffff;
+        --COLOR-HEADER-FONT-DARK:#008A00;
         --COLOR-HEADER-FONT-DARK-HOVER:#5EF046;        
-        
-        
+        --COLOR-CODE-BG:#0B1120;
     }
     
     html[data-theme='dark'] {
-        --COLOR-BG:#040404  ;
-        --COLOR-FONT: white;
-        --COLOR-SCROLL:#040404;
+        --COLOR-BG:#0B1120;
+        --COLOR-FONT: rgb(255,255,255,0.9);
+        --COLOR-SCROLL:#0B1120;
+        --COLOR-OUTLINE-BTN-BG:#ffffff;
         --COLOR-HEADER-FONT-DARK:#44d62c;
         --COLOR-HEADER-FONT-DARK-HOVER:#73e161;
+        --COLOR-CODE-BG:#0B1120;
     }
 
 
@@ -186,9 +193,9 @@
     height: 5px;
     }
     
-    ::-webkit-scrollbar-track {
+    /* ::-webkit-scrollbar-track {
     background-color: var(--COLOR-SCROLL);
-    }
+    } */
     
     ::-webkit-scrollbar-thumb {
     background-color: var(--COLOR-PRIMARY);
