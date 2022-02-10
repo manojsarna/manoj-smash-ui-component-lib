@@ -1,0 +1,67 @@
+.sm-input-container {
+    position: relative;
+    width: 100%;
+    display: flex;
+}
+
+.input-basic {
+    width: 100%;
+    font-size: 1.6rem;
+    outline: none;
+    padding: 1rem;
+    border-radius: 5px;
+    background: transparent;
+    color: var(--COLOR-FONT);
+    border: 2px solid var(--COLOR-FONT);
+}
+
+.icon-basic {
+    font-size: 1.8rem;
+    position: absolute;
+    left: 1.5rem;
+    top: 1.5rem;
+}
+
+.input-basic-icon{
+    padding-left: 4rem;
+}
+
+.input-search input:focus {
+    border: 2px solid var(--COLOR-PRIMARY);
+}
+
+.input-search:focus-within .fas {
+    color: var(--COLOR-PRIMARY);
+}
+
+.input-user input:focus {
+    border: 2px solid var(--COLOR-PRIMARY);
+}
+
+.input-user:focus-within .fas {
+    color: var(--COLOR-PRIMARY);
+}
+
+.input-pass input:focus {
+    border: 2px solid var(--COLOR-PRIMARY);
+}
+
+.input-pass:focus-within .fas {
+    color: var(--COLOR-PRIMARY);
+}
+
+.input-invalid input:focus,textarea:focus {
+    border: 2px solid var(--COLOR-RED);
+}
+
+.input-valid input:focus {
+    border: 2px solid var(--COLOR-DARKEN-4);
+}
+
+.input-warning input:focus {
+    border: 2px solid var(--COLOR-WARNING);
+}
+
+.input-disabled:disabled {
+    background:var(--COLOR-DISABLED);
+}

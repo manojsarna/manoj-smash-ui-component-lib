@@ -98,6 +98,9 @@
         /* DARK THEME */
 
         --COLOR-OVERLAY:rgb(234, 234, 236,0.6);
+
+        --COLOR-DISABLED:rgba(100,100,100,0.3);   
+
         --COLOR-FONT:black;
         --COLOR-BG:white;
 

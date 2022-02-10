@@ -1,0 +1,48 @@
+
+.component-show-image-container{
+    display: flex;
+    justify-content: center;
+    padding: 2rem;
+    margin: 2rem 0;
+    border:1px solid var(--COLOR-LIGHT-PRIMARY);
+    border-radius: 5px;
+    width: 100%;
+    gap:1rem;
+}
+
+.sm-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    border: 1px solid var(--COLOR-PRIMARY);
+  }
+
+  .sm-img-border{
+      border-radius: 10px;
+  }
+
+  .sm-img-border img{
+    border-radius: 10px;
+  }
+
+  .sm-img img {
+    max-width: revert;
+    object-fit: cover;
+  }
+
+  .sm-img-fit img {
+    width: 100%;
+    object-fit: contain;
+  }
+
+  .sm-img-rnd {
+    border-radius: 50%;
+    aspect-ratio: 1/1;
+  }
+
+  .sm-img-rnd img {
+    width: 100%;
+  }
+  
