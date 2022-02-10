@@ -261,3 +261,11 @@
     pointer-events: none;
     cursor: default;
   }
+
+  .sm-card-content-text{
+    overflow: hidden;
+  }
+
+  .sm-card-text{
+    padding: 1rem;
+  }

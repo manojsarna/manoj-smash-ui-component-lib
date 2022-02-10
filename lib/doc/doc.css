@@ -6,6 +6,8 @@
 @import "/lib/Components/Badges/badges.css";
 @import "/lib/Components/Button/button.css";
 @import "/lib/Components/Cards/cards.css";
+@import "/lib/Components/Image/image.css";
+@import "/lib/Components/Input/input.css";
 
 html{
     scroll-behavior: smooth;
