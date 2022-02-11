@@ -1,7 +1,7 @@
 .sm-modal-main {
     width: 100vw;
     height: 100vh;
-    z-index: 4;
+    z-index: 55;
     position: fixed;
     top: 0;
     left: 0;
