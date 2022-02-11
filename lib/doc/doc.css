@@ -12,6 +12,10 @@
 @import "/lib/Components/Lists/lists.css";
 @import "/lib/Components/Navigation/navigation.css";
 @import "/lib/Components/Modal/modal.css";
+@import "/lib/Components/Rating/rating.css";
+@import "/lib/Components/Toast/toast.css";
+@import "/lib/Components/Grid/grid.css";
+
 
 html{
     scroll-behavior: smooth;

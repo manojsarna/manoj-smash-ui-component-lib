@@ -1,0 +1,30 @@
+.sm-close-icon{
+    margin-left: 2rem;
+    float:right;
+    cursor: pointer;
+}
+.sm-close-icon:hover{
+    opacity: 0.75;
+}
+.sm-close-icon:active{
+    transform: scale(0.95);
+}
+
+#toast-success-btn{
+    max-width: 20rem;
+    align-self: center;
+}
+
+.sm-toast-container{
+    display:none;
+    place-content: center;
+    position: fixed;
+    top: 2rem;
+    right:2rem;
+    opacity: 0.8;
+    z-index: 4;
+    width: fit-content;
+}
+.sm-toast-container-show{
+    display: grid;
+}

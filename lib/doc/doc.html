@@ -45,7 +45,7 @@
         <div class="sm-header-social flex-center-wrap">
             <a href="https://twitter.com/manojsarnacom" target="_blank" rel="noopener noreferrer" class="btn-social-show" title="Twitter"><i class="btn-social fab fa-twitter" ></i></a>
             <a href="https://github.com/manojsarna" target="_blank" rel="noopener noreferrer" class="btn-social-show" title="GitHub"><i class="btn-social fab fa-github"></i></a>
-            <button id="btn-dm" class="btn-social btn-dark-mode btn-social-show"><i class="fas fa-moon" title="Switch To Dark Mode"></i></button>
+            <button id="btn-dm" class="btn-social btn-dark-mode btn-social-show" title="Switch To Dark Mode"><i class="fas fa-moon"></i></button>
             <button id="hb-menu" class="btn-social btn-social-hide">
                 <i class="fas fa-bars"></i>
             </button>
@@ -56,7 +56,7 @@
         <div class="header-mobile-social flex-center-wrap">
             <a href="https://twitter.com/manojsarnacom" target="_blank" rel="noopener noreferrer" class="btn-social-hide toggle-hb" title="Twitter"><i class="btn-social fab fa-twitter" ></i></a>
             <a href="https://github.com/manojsarna" target="_blank" rel="noopener noreferrer" class="btn-social-hide toggle-hb" title="GitHub"><i class="btn-social fab fa-github"></i></a>
-            <button id="btn-dm" class="btn-social btn-dark-mode btn-social-hide" title="Switch To Dark Mode"><i class="fas fa-moon" ></i></button>
+            <button id="btn-dm" class="btn-social btn-dark-mode btn-social-hide" data-title="Switch To Dark Mode"><i class="fas fa-moon" ></i></button>
         </div>
         <div class="header-mobile-nav">
             <ul class="sm-nav-links">
@@ -91,6 +91,25 @@
     <main class="sm-main">
         <div id="top"></div>
             <section>
+                <div id="usage">
+    
+                    <div class="component-intro">
+                        <h1>Usage</h1>
+                        <p class="text-lg margin-top-1r">This is how you can use these components
+                        </p>
+                    </div>
+    
+                    <!-- CODE SNIPPET FOR USAGE -->
+                    <script type="text/plain" class="line-numbers language-css language-markup">
+                        // CSS
+                        @import url("https://smashui.netlify.app/lib/components/smashui.css");
+                       
+                        // HTML
+                        <link rel="stylesheet" href="https://smashui.netlify.app/lib/components/smashui.css"> 
+                    </script>                        
+                      
+                </div>     
+                <hr>                                
                 <div id="alerts">
     
                     <div class="component-intro">
@@ -2545,13 +2564,448 @@
                             </div>
                         </div>
                            
+                    </script>                                             
+                </div>    
+                             
+                <hr>     
+
+                <div id="rating">
+    
+                    <div class="component-intro">
+                        <h1>Rating</h1>
+                        <p class="text-lg margin-top-1r">Rating components can be used as read-only badge or in reviews section. Can be used in reviews section as form too.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-column-wrap">
+                        <h3>Live Demo</h3>
+                        <div class="sm-rating">
+                            <i class="fas fa-star starred"></i>
+                            <i class="fas fa-star starred"></i>
+                            <i class="fas fa-star starred"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                          </div>
+
+                          <h3>Actual Rating : <span id="rating-result"></span> Stars</h3>
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR RATINGS -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <h3>Live Demo</h3>
+                        <div class="sm-rating">
+                            <i class="fas fa-star starred"></i>
+                            <i class="fas fa-star starred"></i>
+                            <i class="fas fa-star starred"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h3>Actual Rating : <span id="rating-result"></span> Stars</h3>      
                     </script>                        
  
                       
-                      <hr>                            
-                </div>                   
+                                                
+                </div>      
 
-  
+                <hr>  
+
+                <div id="toast">
+    
+                    <div class="component-intro">
+                        <h1>Toast</h1>
+                        <p class="text-lg margin-top-1r">This component can be used for toast or snackbar component. Toast is mostly used to show feedback message. Snackbar is to used show message that need user action
+                        </p>
+                    </div>
+                    
+                    <div class="component-show-container flex-column-wrap ">
+                        <button id="toast-success-btn" class="btn btn-primary btn-bolder">Success Toast</button>
+
+                        <div class="sm-toast-container">
+                            <div class="sm-notification sm-not-success">
+                                <span class="sm-alert-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span>This is a Success Toast</span>
+                                <span class="sm-close-icon">
+                                    <i class="fas fa-times"></i>
+                                </span>
+                            </div>
+                        </div>
+
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR RATINGS -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <button id="toast-success-btn" class="btn btn-primary btn-bolder">Success Toast</button>
+
+                        <div class="sm-toast-container">
+                            <div class="sm-notification sm-not-success">
+                                <span class="sm-alert-icon">
+                                    <i class="fas fa-check-circle"></i>
+                                </span>
+                                <span>This is a Success Toast</span>
+                                <span class="sm-close-icon">
+                                    <i class="fas fa-times"></i>
+                                </span>
+                            </div>
+                        </div>                    
+                    </script>                        
+                         
+                </div>    
+
+                <hr>  
+
+                <div id="grid">
+    
+                    <div class="component-intro">
+                        <h1>Grid</h1>
+                        <p class="text-lg margin-top-1r">Use grid when you want sections in view. Check below some examples of side by side cards. This one is of (50:50)
+                        </p>
+                    </div>
+                    
+                    <div class="component-show-container flex-row-wrap ">
+
+                        <div class="grid-50-50">
+                            <div>
+                                <img class="img-responsive" src="https://picsum.photos/800/600">
+                            </div>
+                            <div class="sm-grid-card-hor">
+                                <div class="sm-grid-content">
+                                    <h2>Badminton Deals</h2>
+                                    <h3>Starting At ₹1299/-</h3>
+                                    <button class="btn btn-primary btn-bold ">Explore Now!</button>
+                                </div>
+                            </div>
+                        </div>                        
+
+
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR GRID 50 50 -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid-50-50">
+                            <div>
+                                <img class="img-responsive" src="https://picsum.photos/800/600">
+                            </div>
+                            <div class="sm-grid-card-hor">
+                                <div class="sm-grid-content">
+                                    <h2>Badminton Deals</h2>
+                                    <h3>Starting At ₹1299/-</h3>
+                                    <button class="btn btn-primary btn-bold ">Explore Now!</button>
+                                </div>
+                            </div>
+                        </div>                  
+                    </script>     
+
+                    <hr>
+                    
+                    <div class="component-intro">
+                        <h2>Grid (70:30)</h2>
+                        <p class="text-lg margin-top-1r">Use grid when you want sections in view. Check below some examples of side by side cards.
+                        </p>
+                    </div>
+                    
+                    <div class="component-show-container flex-row-wrap ">
+
+                        <div class="grid-70-30">
+                            <div>
+                                <img class="img-responsive" src="https://picsum.photos/800/600">
+                            </div>
+                            <div class="sm-grid-card-hor">
+                                <div class="sm-grid-content">
+                                    <h3>Badminton Deals</h3>
+                                    <h4>Starting At ₹1299/-</h4>
+                                    <button class="btn btn-primary btn-bold ">Explore Now!</button>
+                                </div>
+                            </div>
+                        </div>                        
+
+
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR GRID 70 30 -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid-70-30">
+                            <div>
+                                <img class="img-responsive" src="https://picsum.photos/800/600">
+                            </div>
+                            <div class="sm-grid-card-hor">
+                                <div class="sm-grid-content">
+                                    <h3>Badminton Deals</h3>
+                                    <h4>Starting At ₹1299/-</h4>
+                                    <button class="btn btn-primary btn-bold ">Explore Now!</button>
+                                </div>
+                            </div>
+                        </div>                  
+                    </script>        
+
+                    <hr>
+                    
+                    <div class="component-intro">
+                        <h2>Grid (30:70)</h2>
+                        <p class="text-lg margin-top-1r">Use grid when you want sections in view. Check below some examples of side by side cards.
+                        </p>
+                    </div>
+                    
+                    <div class="component-show-container flex-row-wrap ">
+
+                        <div class="grid-30-70 grid-content-center">
+                            <div>
+                                <img class="img-responsive" src="https://picsum.photos/800/600">
+                            </div>
+                            <div class="sm-grid-card-hor">
+                                <div class="sm-grid-content">
+                                    <h1>Badminton Deals</h1>
+                                    <h2>Starting At ₹1299/-</h2>
+                                    <button class="btn btn-primary btn-bold ">Explore Now!</button>
+                                </div>
+                            </div>
+                        </div>                        
+
+
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR GRID 30 70 -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid-70-30">
+                            <div>
+                                <img class="img-responsive" src="https://picsum.photos/800/600">
+                            </div>
+                            <div class="sm-grid-card-hor">
+                                <div class="sm-grid-content">
+                                    <h1>Badminton Deals</h1>
+                                    <h2>Starting At ₹1299/-</h2>
+                                    <button class="btn btn-primary btn-bold ">Explore Now!</button>
+                                </div>
+                            </div>
+                        </div>                 
+                    </script>     
+                         
+
+                    <hr>
+                    
+                    <div class="component-intro">
+                        <h2>Grid 4 Columns</h2>
+                        <p class="text-lg margin-top-1r">Use grid when you want sections in view. Check below some examples of side by side cards.
+                        </p>
+                    </div>
+                    
+                    <div class="component-show-container flex-row-wrap ">
+
+                        <div class="grid-4c grid-content-center">
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <button class="sm-card-fav" title="Add To Wishlist">
+                                      <i class="far fa-heart"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>
+
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <span class="sm-card-badge">New</span>
+                                    <button class="sm-card-fav" title="Add To Wishlist">
+                                      <i class="fas fa-heart"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>     
+                            
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <button class="sm-card-dismiss" title="Dismiss">
+                                      <i class="fas fa-times"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>           
+                         
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <span class="sm-card-badge">Best seller</span>
+                                    <button class="sm-card-fav" title="Add To Wishlist">
+                                      <i class="far fa-heart"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>
+                            
+                        </div>                        
+
+
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR GRID 70 30 -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="grid-4c grid-content-center">
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <button class="sm-card-fav" title="Add To Wishlist">
+                                      <i class="far fa-heart"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>
+
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <span class="sm-card-badge">New</span>
+                                    <button class="sm-card-fav" title="Add To Wishlist">
+                                      <i class="fas fa-heart"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>     
+                            
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <button class="sm-card-dismiss" title="Dismiss">
+                                      <i class="fas fa-times"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>           
+                         
+                            <div class="sm-card">
+                                <div class="sm-card-img">
+                                    <span class="sm-card-badge">Best seller</span>
+                                    <button class="sm-card-fav" title="Add To Wishlist">
+                                      <i class="far fa-heart"></i>
+                                    </button>
+                                    <img src="/lib/assets/images/badminton/badminton-2.webp" alt="badminton" />
+                                </div>
+                                <div class="sm-card-content">
+                                    <h2 class="sm-card-content-title" title="Click To Know More!!">Yonex GR 303 Aluminum Blend Badminton Racquets with Full Cover, Pack of 2 and Mavis combo</h2>
+                                    <h2 class="sm-card-content-brand" title="Click To Know More!!"> by <a href="#" class="link-brand">Yonex</a></h2>
+                                    <div class="sm-card-info">
+                                        <span class="sm-card-info-price">
+                                        ₹1249
+                                        <span class="sm-card-info-price-old">₹1750</span>
+                                        <span class="sm-card-info-price-save">(29% Off)</span>
+                                        </span>
+                                        <button class="btn btn-primary cart-btn">
+                                            <i class="btn-cart fas fa-shopping-cart"></i>
+                                            Add To Cart
+                                        </button> 
+                                    </div>   
+                                </div>                         
+                            </div>
+                            
+                        </div>                           
+            
+                    </script>     
+                    
+                    <hr>
+                </div>                    
+
+
+
             </section>
 
     </main>
@@ -2561,6 +3015,8 @@
     <script src="/lib/Components/Alerts/alerts.js"></script>
     <script src="/lib/Components/Badges/badges.js"></script>
     <script src="/lib/Components/Modal/modal.js"></script>
+    <script src="/lib/Components/Rating/rating.js"></script>
+    <script src="/lib/Components/Toast/toast.js"></script>
     <script src="/lib/assets/prism/prism.js"></script>
     <script src="/lib/assets/lightdarktheme/lightdark.js"></script>
     <script src="/lib/doc/doc.js"></script>
