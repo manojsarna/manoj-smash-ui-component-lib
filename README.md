@@ -2,7 +2,7 @@
 
 <div align="center">
 
-<img alt="badminton" src="/lib/assets/logo/logo.png" width="400px" height="200px" />
+<img alt="badminton" src="/lib/assets/logo/logo.png" width="1048px" height="238px" />
 
 # Smash UI - Usage
 
