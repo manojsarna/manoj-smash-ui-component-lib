@@ -8,6 +8,10 @@
 @import "/lib/Components/Cards/cards.css";
 @import "/lib/Components/Image/image.css";
 @import "/lib/Components/Input/input.css";
+@import "/lib/Components/Typography/typography.css";
+@import "/lib/Components/Lists/lists.css";
+@import "/lib/Components/Navigation/navigation.css";
+@import "/lib/Components/Modal/modal.css";
 
 html{
     scroll-behavior: smooth;
@@ -184,9 +188,9 @@ body{
     position: relative;
 }
 
-.sm-main h1{
+/* .sm-main h1{
     font-size: 4rem;
-}
+} */
 
 /* MAIN ENDS */
 

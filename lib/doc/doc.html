@@ -68,7 +68,7 @@
         <ul class="sm-nav-links">
             <li ><a href="#usage" class="sm-nav-item">Usage</a></li>
             <li ><a href="#colors" class="sm-nav-item">Colors</a></li>
-            <li ><a href="#typograpghy" class="sm-nav-item">Typography</a></li>
+            <li ><a href="#typography" class="sm-nav-item">Typography</a></li>
         </ul>	        
         <h3 class="sm-nav-title">Components</h3>
         <ul class="sm-nav-links">
@@ -81,6 +81,7 @@
             <li ><a href="#input" class="sm-nav-item">Input</a></li>
             <li ><a href="#lists" class="sm-nav-item">Lists</a></li>
             <li ><a href="#navigation" class="sm-nav-item">Navigation</a></li>
+            <li ><a href="#modal" class="sm-nav-item">Modal</a></li>
             <li ><a href="#rating" class="sm-nav-item">Rating</a></li>
             <li ><a href="#toast" class="sm-nav-item">Toast</a></li>
             <li ><a href="#grid" class="sm-nav-item">Grid</a></li>
@@ -114,7 +115,7 @@
                         <!--  INFO ALERT -->
                         <div class="alert-box alert-info">
                             <span class="alert-icon">
-                                <i class="fas fa-info-circle"></i>
+                                <i class="fas fa-info-circle alert-icon"></i>
                             </span>
                             <span>An Info Alert Example with text link 
                             <a class="link-text link-text-info">Please Check!</a> 
@@ -124,7 +125,7 @@
                         <!-- SUCCESS ALERT -->
                         <div class="alert-box alert-success">
                             <span class="alert-icon">
-                                <i class="fas fa-check-circle"></i>
+                                <i class="fas fa-check-circle alert-icon"></i>
                             </span>
                             <span>A Success Alert Example</span>
                         </div>
@@ -778,14 +779,11 @@
                         <div class="icon">
                             <button class="bd-btn" id="btn-action" title="Click Me to perform ACTION!!!">ClickMe</button>        
                             <span id="counter" class="icon-badge bd-red icon-bd-top-right">7</span>
-                    
                         </div>
 
                         <div class="icon">
-                    
                             <button class="bd-btn" id="btn-hide" title="Click Me to Hide Badge!!!">Hide</button>        
                             <span id="hide-me" class="icon-badge bd-red icon-bd-top-right">7</span>
-                    
                         </div>                    
     
                     </div>
@@ -794,33 +792,32 @@
                     <script type="text/plain" class="line-numbers language-markup">
     
                         <!--  ICON L WITH GREEN BADGE XXL SIZE ON BOTTOM-LEFT SIDE -->
+                        
                         <div class="icon">
-                            <img src="lib/assets/svg/cart.svg"  alt="badminton"/>
+                            <i class="icon fas fa-shopping-cart"></i>
                             <span class="icon-badge bd-green icon-bd-top-right ">77</span>
                         </div>
     
+                        <div class="icon">
+                            <i class="icon fas fa-bell margin-right-2"></i>
+                            <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                        </div>                    
     
                         <div class="icon">
                             <span>Text with a badge</span>
                             <span class="icon-badge bd-green icon-bd-top-right">7</span>
                     
                         </div>
-                    
-    
+                
                         <div class="icon">
                             <button class="bd-btn" id="btn-action" title="Click Me to perform ACTION!!!">ClickMe</button>        
                             <span id="counter" class="icon-badge bd-red icon-bd-top-right">7</span>
-                    
                         </div>
-                    
-                    
-                    
+
                         <div class="icon">
-                    
                             <button class="bd-btn" id="btn-hide" title="Click Me to Hide Badge!!!">Hide</button>        
                             <span id="hide-me" class="icon-badge bd-red icon-bd-top-right">7</span>
-                    
-                        </div>     
+                        </div>   
                     </script>    
     
                 </div>     
@@ -1130,19 +1127,57 @@
                      
                     <!-- CODE SNIPPET FOR OUTLINE ROUND TO STANDARD BUTTONS -->
                     <script type="text/plain" class="line-numbers language-markup">
-                        <!--  OUTLINE ROUND TO STANDARD BUTTONS -->
-                        <button class="btn btn-outline btn-round btn-spl">Outline Button</button>
+                        <!--  OUTLINE BUTTONS -->
+                        <button class="btn btn-txt ">Text Button</button>
     
-                        <button class="btn btn-outline btn-bold btn-round btn-spl">Outline Bold Button</button>
+                        <button class="btn btn-primary ">
+                            <i class="fas fa-shopping-cart"></i>
+                        </button>
     
-                        <button class="btn btn-outline btn-bolder btn-round btn-spl">Outline Bolder Button</button>
-                                           
-                        <button class="btn btn-outline-s btn-round btn-spl">Outline Button</button>
+                        <button class="btn btn-primary ">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button> 
     
-                        <button class="btn btn-outline-s btn-bold btn-round btn-spl">Outline Bold Button</button>
+                        <button class="btn btn-outline btn-round ">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>                    
     
-                        <button class="btn btn-outline-s btn-bolder btn-round btn-spl">Outline Bolder Button</button>
-            
+                        <button class="btn btn-outline btn-round btn-spl">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>        
+                        
+                        <button class="btn btn-secondary ">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>        
+                        
+                        <button class="btn btn-secondary btn-round">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>                    
+    
+                        <button class="btn btn-outline-s btn-round">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>
+    
+                        <button class="btn btn-outline-s btn-round btn-spl">
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>
+    
+    
+                        <button class="btn btn-primary" disabled>
+                            <i class="btn-cart fas fa-shopping-cart"></i>
+                            Add To Cart
+                        </button>       
+                        
+                        <a href="#top" class="btn btn-primary btn-float" title="Scroll To Top!!">
+                            <i class="fas fa-chevron-up"></i>
+                        </a>
                     </script>                     
     
                 </div>            
@@ -2060,8 +2095,463 @@
                      <hr>    
                            
                 </div>                   
+                
+                <hr>
 
-                <hr>                
+                <div id="typography">
+    
+                    <div class="component-intro">
+                        <h1>Typography</h1>
+                        <p class="text-lg margin-top-1r">Check out below text utilities.For heading u can use h1, h2, h3, h4, h5, h6 elements.
+                            The same font-styling is present for class names h1, h2, h3, h4, h5, h6 class. You can add one of these classes to style the text.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-column-wrap">
+                        
+                        <h1> H1 - This is the Heading </h1>
+                        <h2> H2 - This is the Heading</h2>
+                        <h3> H3 - This is the Heading</h3>
+                        <h4> H4 - This is the Heading</h4>
+                        <h5> H5 - This is the Heading</h5>
+                        <p> P - This is the Paragraph</p>
+     
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Typography -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <h1> H1 - This is the Heading </h1>
+                        <h2> H2 - This is the Heading</h2>
+                        <h3> H3 - This is the Heading</h3>
+                        <h4> H4 - This is the Heading</h4>
+                        <h5> H5 - This is the Heading</h5>
+                        <p> P - This is the Paragraph</p>
+                        
+                    </script>    
+
+                     <hr>    
+
+                     <div class="component-intro">
+                        <h2>Font Weight Classes</h2>
+                        <p class="text-lg margin-top-1r">These are the different Font Weights using Inter San Serif can be used with any elements.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-column-wrap">
+                        
+                        <p class="h3 fw-300">LIGHT 300</p>
+                        <p class="h3 fw-400">REGULAR 400</p>
+                        <p class="h3 fw-500">MEDIUM 500</p>
+                        <p class="h3 fw-600">SEMIBOLD 600</p>
+                        <p class="h3 fw-700">BOLD 700</p>
+                        <p class="h3 fw-800">BOLDER 800</p>
+                        <p class="h3 fw-900">BLACK 900</p>
+     
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Font Weight Classes -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <p class="h3 fw-300">LIGHT 300</p>
+                        <p class="h3 fw-400">REGULAR 400</p>
+                        <p class="h3 fw-500">MEDIUM 500</p>
+                        <p class="h3 fw-600">SEMIBOLD 600</p>
+                        <p class="h3 fw-700">BOLD 700</p>
+                        <p class="h3 fw-800">BOLDER 800</p>
+                        <p class="h3 fw-900">BLACK 900</p>
+                    </script>    
+
+                     <hr>          
+                     
+                     <div class="component-intro">
+                        <h2>Text Color Classes</h2>
+                        <p class="text-lg margin-top-1r">These are the different Font Weights using Inter San Serif can be used with any elements.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-column-wrap">
+                        
+                        <p class="h3 fw-500 sm-color-txt-primary">This is Primary Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-info">This is Info Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-success">This is Success Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-warning">This is Warning Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-error">This is Error Text Color</p>
+     
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Text Color Classes -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <p class="h3 fw-500 sm-color-txt-primary">This is Primary Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-info">This is Info Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-success">This is Success Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-warning">This is Warning Text Color</p>
+                        <p class="h3 fw-500 sm-color-txt-error">This is Error Text Color</p>
+                    </script>    
+
+                     <hr>                 
+                     
+                     <div class="component-intro">
+                        <h2>Backgorund Color Classes</h2>
+                        <p class="text-lg margin-top-1r">These are the different Font Weights using Inter San Serif can be used with any elements.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-column-wrap">
+                        
+                        <p class="h3 fw-500 sm-color-bg-primary">This is Primary Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-info">This is Info Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-success">This is Success Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-warning">This is Warning Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-error">This is Error Text Color</p>
+     
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Backgorund Color Classes -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <p class="h3 fw-500 sm-color-bg-primary">This is Primary Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-info">This is Info Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-success">This is Success Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-warning">This is Warning Text Color</p>
+                        <p class="h3 fw-500 sm-color-bg-error">This is Error Text Color</p>
+                    </script>    
+
+                                            
+                </div>  
+
+                <hr> 
+
+                <div id="lists">
+    
+                    <div class="component-intro">
+                        <h1>Lists</h1>
+                        <p class="text-lg margin-top-1r">Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-row-wrap list-gap">
+                     
+                        <ul class="sm-ul sm-list-type-circle">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary">Brand</div>
+                            <li class="h4">Yonex</li>
+                            <li class="h4">Lining</li>
+                            <li class="h4">Venom</li>
+                        </ul>
+
+                        <ul class="sm-ul sm-list-type-square">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary ">Shuttles</div>
+                            <li class="h4">Feather</li>
+                            <li class="h4">Plastic</li>
+                            <li class="h4">Nylon</li>
+                        </ul>
+                        
+                        <ul class="sm-ul sm-list-type-lower-alpha">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary">Speed</div>
+                            <li class="h4">Fast</li>
+                            <li class="h4">Slow</li>
+                            <li class="h4">Medium</li>
+                        </ul>
+
+                        <ul class="sm-ul">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary">Shots</div>
+                            <li class="h4">Smash</li>
+                            <li class="h4">Drop</li>
+                            <li class="h4">Long</li>
+                        </ul>                       
+ 
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Backgorund Color Classes -->
+                    <script type="text/plain" class="line-numbers language-markup">
+
+                        <ul class="sm-ul sm-list-type-circle">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary">Brand</div>
+                            <li class="h4">Yonex</li>
+                            <li class="h4">Lining</li>
+                            <li class="h4">Venom</li>
+                        </ul>
+
+                        <ul class="sm-ul sm-list-type-square">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary ">Shuttles</div>
+                            <li class="h4">Feather</li>
+                            <li class="h4">Plastic</li>
+                            <li class="h4">Nylon</li>
+                        </ul>
+                        
+                        <ul class="sm-ul sm-list-type-lower-alpha">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary">Speed</div>
+                            <li class="h4">Fast</li>
+                            <li class="h4">Slow</li>
+                            <li class="h4">Medium</li>
+                        </ul>
+
+                        <ul class="sm-ul">
+                            <div class="sm-ul-cat h3 fw-700 sm-color-txt-primary">Shots</div>
+                            <li class="h4">Smash</li>
+                            <li class="h4">Drop</li>
+                            <li class="h4">Long</li>
+                        </ul>                              
+                        
+                    </script>                        
+ 
+                      <hr>           
+
+                      <div class="component-intro">
+                        <h2>Stacked Lists</h2>
+                        <p class="text-lg margin-top-1r">Lists can be used at so many places, navigation bar, stacked notifications, article pages, etc.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-row-wrap">
+                     
+                        <!-- INFO ALERT -->
+                        <div class="sm-notification sm-not-info">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-info-circle"></i>
+                            </span>
+                            <span>This is Info Notification 1</span>
+                        </div>
+    
+                        <!-- SUCCESS ALERT -->
+                        <div class="sm-notification sm-not-success">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </span>
+                            <span>This is Success Notification 2</span>
+                        </div>
+                        
+                        <!-- ERROR ALERT -->
+                        <div class="sm-notification sm-not-error">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </span>
+                            <span>This is Error Notification 3</span>
+                        </div>         
+                        
+                        <!-- WARNING ALERT -->
+                        <div class="sm-notification sm-not-warning">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </span>
+                            <span>This is Warning Notification 4</span>
+                        </div>                             
+                        
+ 
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Backgorund Color Classes -->
+                    <script type="text/plain" class="line-numbers language-markup">
+
+                        <!-- INFO ALERT -->
+                        <div class="sm-notification sm-not-info">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-info-circle"></i>
+                            </span>
+                            <span>This is Info Notification 1</span>
+                        </div>
+    
+                        <!-- SUCCESS ALERT -->
+                        <div class="sm-notification sm-not-success">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-check-circle"></i>
+                            </span>
+                            <span>This is Success Notification 2</span>
+                        </div>
+                        
+                        <!-- ERROR ALERT -->
+                        <div class="sm-notification sm-not-error">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-exclamation-circle"></i>
+                            </span>
+                            <span>This is Error Notification 3</span>
+                        </div>         
+                        
+                        <!-- WARNING ALERT -->
+                        <div class="sm-notification sm-not-warning">
+                            <span class="sm-alert-icon">
+                                <i class="fas fa-exclamation-triangle"></i>
+                            </span>
+                            <span>This is Warning Notification 4</span>
+                        </div>                             
+                                             
+                        
+                    </script>                        
+ 
+                      <hr>                            
+                </div>     
+                
+                <hr> 
+
+                <div id="navigation">
+    
+                    <div class="component-intro">
+                        <h1>Navigation</h1>
+                        <p class="text-lg margin-top-1r">Navigation bar is used to navigate through the web apps or websites. This navigation component is responsive. It is a hamburger menu in medium and small devices
+                        </p>
+                    </div>
+    
+                    <div class="sm-nav-component-show-container">
+                        
+                        <div class="sm-nav-new">
+                            <!-- LOGO -->
+                            <a href="#" class="link-text-dec" title="Go To Home">
+                                <div class="sm-nav-logo flex-row-wrap">                                                                                                        
+                                    <span class="sm-header-icon">
+                                        <i class="fab fa-opencart"></i>
+                                    </span>                                    
+                                    <span>SmashCart</span>                                                                
+                                </div>
+                            </a>   
+                          
+                            <!-- SEARCH -->
+                            <div class="sm-nav-search">                                                                                                                                    
+                                <div class="sm-input-container input-search">
+                                    <input type="text" class="input-basic input-basic-icon" placeholder="Search..." name="search" />
+                                    <i class="icon-basic fas fa-search"></i>
+                                </div>
+                            </div>
+                            <!-- ICONS BUTTONS FOR CTA -->
+                            <div class="sm-action-icon-btn-wrapper">
+                                <!-- Wishlist Icon -->
+                                <button class="sm-icon-btn sm-icon-btn-primary sm-action-icon-wishlist">
+                                    <div class="icon">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                                    </div>
+                                </button>
+                        
+                                <!-- Cart Icon -->
+                                <button class="sm-icon-btn sm-icon-btn-primary sm-action-icon-cart">
+                                    <div class="icon">
+                                        <i class="fas fa-heart"></i>
+                                        <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                                    </div>
+                                </button>
+                        
+                                <!-- Login Button -->
+                                <button class="btn btn-primary ">
+                                    <i class="fas fa-sign-in-alt icon-in-btn"></i>
+                                    Login
+                                </button>
+                            </div>
+                        </div>                        
+
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Navigation -->
+                    <script type="text/plain" class="line-numbers language-markup">
+                        <div class="sm-nav-new">
+                            <!-- LOGO -->
+                            <a href="#" class="link-text-dec" title="Go To Home">
+                                <div class="sm-nav-logo flex-row-wrap">                                                                                                        
+                                    <span class="sm-header-icon">
+                                        <i class="fab fa-opencart"></i>
+                                    </span>                                    
+                                    <span>SmashCart</span>                                                                
+                                </div>
+                            </a>   
+                          
+                            <!-- SEARCH -->
+                            <div class="sm-nav-search">                                                                                                                                    
+                                <div class="sm-input-container input-search">
+                                    <input type="text" class="input-basic input-basic-icon" placeholder="Search..." name="search" />
+                                    <i class="icon-basic fas fa-search"></i>
+                                </div>
+                            </div>
+                            <!-- ICONS BUTTONS FOR CTA -->
+                            <div class="sm-action-icon-btn-wrapper">
+                                <!-- Wishlist Icon -->
+                                <button class="sm-icon-btn sm-icon-btn-primary sm-action-icon-wishlist">
+                                    <div class="icon">
+                                        <i class="fas fa-shopping-cart"></i>
+                                        <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                                    </div>
+                                </button>
+                        
+                                <!-- Cart Icon -->
+                                <button class="sm-icon-btn sm-icon-btn-primary sm-action-icon-cart">
+                                    <div class="icon">
+                                        <i class="fas fa-heart"></i>
+                                        <span class="icon-badge bd-green icon-bd-top-right ">77</span>
+                                    </div>
+                                </button>
+                        
+                                <!-- Login Button -->
+                                <button class="btn btn-primary ">
+                                    <i class="fas fa-sign-in-alt icon-in-btn"></i>
+                                    Login
+                                </button>
+                            </div>
+                        </div>                           
+                           
+                    </script>                        
+                                               
+                </div>  
+
+                <hr>  
+
+                <div id="modal">
+    
+                    <div class="component-intro">
+                        <h1>Modal</h1>
+                        <p class="text-lg margin-top-1r">Modals are positioned over everything else in the document and remove scroll from the page. It gets closed only with close button on modal pop-up.
+                        </p>
+                    </div>
+    
+                    <div class="component-show-container flex-row-wrap list-gap">
+                        <button id="btn-sm-modal-show" class="btn btn-primary btn-bold ">Show Modal</button>
+
+                        
+                        <div id="sm-modal" class="sm-modal-main ">
+                            <div class="sm-modal-content">
+                                <button id="btn-sm-modal-close" class="sm-card-dismiss" title="Dismiss">
+                                    <i class="fas fa-times"></i>
+                                  </button>
+                              <div class="sm-modal-title h2 fw-700">Badminton</div>
+                              <div class="sm-modal-text h4 fw-500">
+                               Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.
+                               Although it may be played with larger teams, 
+                               the most common forms of the game are "singles"
+                               (with one player per side) and "doubles" 
+                               (with two players per side). 
+                               Badminton is often played as a casual outdoor activity in a 
+                               yard or on a beach; formal games are played on a rectangular 
+                               indoor court. Points are scored by striking the shuttlecock with 
+                               the racquet and landing it within the opposing side's half of the court.
+                              </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                    <!-- CODE SNIPPET FOR Backgorund Color Classes -->
+                    <script type="text/plain" class="line-numbers language-markup">
+
+                        <div id="sm-modal" class="sm-modal-main ">
+                            <div class="sm-modal-content">
+                                <button id="btn-sm-modal-close" class="sm-card-dismiss" title="Dismiss">
+                                    <i class="fas fa-times"></i>
+                                  </button>
+                              <div class="sm-modal-title h2 fw-700">Badminton</div>
+                              <div class="sm-modal-text h4 fw-500">
+                               Badminton is a racquet sport played using racquets to hit a shuttlecock across a net.
+                               Although it may be played with larger teams, 
+                               the most common forms of the game are "singles"
+                               (with one player per side) and "doubles" 
+                               (with two players per side). 
+                               Badminton is often played as a casual outdoor activity in a 
+                               yard or on a beach; formal games are played on a rectangular 
+                               indoor court. Points are scored by striking the shuttlecock with 
+                               the racquet and landing it within the opposing side's half of the court.
+                              </div>
+                            </div>
+                        </div>
+                           
+                    </script>                        
+ 
+                      
+                      <hr>                            
+                </div>                   
+
+  
             </section>
 
     </main>
@@ -2070,8 +2560,10 @@
     </footer>
     <script src="/lib/Components/Alerts/alerts.js"></script>
     <script src="/lib/Components/Badges/badges.js"></script>
+    <script src="/lib/Components/Modal/modal.js"></script>
     <script src="/lib/assets/prism/prism.js"></script>
     <script src="/lib/assets/lightdarktheme/lightdark.js"></script>
     <script src="/lib/doc/doc.js"></script>
+    
 </body>
 </html>

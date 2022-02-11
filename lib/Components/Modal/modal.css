@@ -1,0 +1,36 @@
+.sm-modal-main {
+    width: 100vw;
+    height: 100vh;
+    z-index: 4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: var(--COLOR-BLACK-80);
+    display: none;
+  }
+  .sm-modal-content {
+    box-shadow: 0px 0px 4px 1px var(--COLOR-PRIMARY);
+    background: vaR(--COLOR-BG);
+    border-radius: 8px;
+    position: relative;
+    max-width: 50vw;
+    margin: auto;
+  }
+
+  .sm-modal-content .sm-card-dismiss{
+    background: var(--COLOR-BG); 
+  }
+ 
+  .sm-modal-title {
+    text-align: center;
+    padding-top: 2rem;
+  }
+  .sm-modal-text {
+    padding: 2rem;
+    text-align: justify;
+  }
+  .sm-modal-main-show {
+    display: grid;
+    place-content: center;
+  }
+  

@@ -10,7 +10,7 @@ hr{
 }
 
 .text-lg{
-    font-size: 1.8rem;
+    font-size: 2rem;
 }
 
 .margin-top-1r{
@@ -20,7 +20,7 @@ hr{
 .add-code{
     font-family: var(--FONT-CODE);
     color:var(--COLOR-WHITE-ALWAYS);
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 2px;
     font-weight: bolder;
     background: var(--COLOR-DARKEN-4);
@@ -60,6 +60,23 @@ hr{
     justify-content: center;
     align-items: end;
     gap: 2rem;
+}
+
+.flex-row-wrap-sb{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+}
+
+.flex-row-center-wrap{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+.flex-row-wrap{
+    display: flex;
+    flex-wrap:wrap;
 }
 
 .bd-red{
