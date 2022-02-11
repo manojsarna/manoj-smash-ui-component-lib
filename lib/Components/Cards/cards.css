@@ -3,7 +3,8 @@
     display:flex;
     flex-direction: column;
     position: relative;
-    width: 25rem;
+    width: 40%;
+    max-width: 55%;
     height: fit-content;
     background: var( --COLOR-BG);
     border: 1px solid var(--COLOR-TEXT-GREY);

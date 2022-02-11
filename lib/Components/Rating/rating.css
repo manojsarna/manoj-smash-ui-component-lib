@@ -1,0 +1,24 @@
+.sm-rating{
+    font-size: 3rem;
+    cursor:pointer;
+}
+
+.sm-rating .fas{
+    color:var(--COLOR-LIGHTEN-6);
+}
+
+.sm-rating .starred{
+    color:var(--COLOR-PRIMARY);
+}
+
+.sm-rating .fas:hover{
+    color:var(--COLOR-PRIMARY);
+}
+
+#rating .flex-column-wrap{
+    align-items: center;
+}
+
+#rating-result{
+    color:var(--COLOR-PRIMARY);
+}
