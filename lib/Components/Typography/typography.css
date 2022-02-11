@@ -1,0 +1,91 @@
+
+h1,
+.h1 {
+  font-size: 4.8rem;
+}
+h2,
+.h2 {
+  font-size: 3.2rem;
+}
+h3,
+.h3 {
+  font-size: 2.4rem;
+}
+h4,
+.h4 {
+  font-size: 2rem;
+}
+h5,
+.h5 {
+  font-size: 1.8rem;
+}
+p,
+.p {
+  font-size: 1.6rem;
+}
+.fw-300 {
+  font-weight: 300;
+}
+.fw-400 {
+  font-weight: 400;
+}
+.fw-500 {
+  font-weight: 500;
+}
+.fw-600 {
+  font-weight: 600;
+}
+.fw-700 {
+  font-weight: 700;
+}
+.fw-800 {
+  font-weight: 800;
+}
+.fw-900 {
+  font-weight: 900;
+}
+
+.sm-color-txt-info{
+    color: var(--COLOR-INFO);
+}
+
+.sm-color-txt-success{
+    color: var(--COLOR-SUCCESS);
+}
+
+.sm-color-txt-warning{
+    color: var(--COLOR-WARNING);
+}
+
+.sm-color-txt-error{
+    color: var(--COLOR-ERROR);
+}
+
+.sm-color-txt-primary{
+    color: var(--COLOR-HEADER-FONT-DARK);
+}
+
+.sm-color-bg-info{
+    color:var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-INFO);
+}
+
+.sm-color-bg-success{
+    color:var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-SUCCESS);
+}
+
+.sm-color-bg-warning{
+    color:var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-WARNING);
+}
+
+.sm-color-bg-error{
+    color:var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-ERROR);
+}
+
+.sm-color-bg-primary{
+    color:var(--COLOR-WHITE-ALWAYS);
+    background: var(--COLOR-HEADER-FONT-DARK);
+}

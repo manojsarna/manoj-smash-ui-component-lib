@@ -45,9 +45,11 @@
         --COLOR-WHITE:#ffffff;
         --COLOR-WHITE-ALWAYS:#ffffff;
 
-        --COLOR-WHITE-FOR-FA-BG:rgba(255, 255, 255, 0.85);
+        --COLOR-WHITE-FOR-FA-BG:rgba(255, 255, 255, 0.8);
 
         --COLOR-BLACK:#000000;
+        --COLOR-BLACK-80:rgba(0, 0, 0, 0.8);
+
         /* COLOR PALETTE LIGHTEN 10% */
 
         --COLOR-LIGHTEN-1:#44D62C; 
@@ -124,6 +126,7 @@
         --COLOR-WARNING-LIGHT-II:#fff9ee; 
 
         --COLOR-ERROR:#664d03;  
+        --COLOR-ERROR-NEW:#b20000;  
         --COLOR-ERROR-LIGHT:#ffe3e3;         
 
         /* BACKGROUND */
