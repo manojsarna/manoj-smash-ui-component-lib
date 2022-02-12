@@ -1,10 +1,11 @@
 
 .sm-card {
+
     display:flex;
     flex-direction: column;
     position: relative;
-    width: 40%;
-    max-width: 55%;
+    width: 30rem;
+    margin-left: 1px;
     height: fit-content;
     background: var( --COLOR-BG);
     border: 1px solid var(--COLOR-TEXT-GREY);

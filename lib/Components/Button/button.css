@@ -3,6 +3,7 @@
     position: relative;
     border-radius:5px;
     padding:1rem 1.5rem;
+    white-space: nowrap;
     transition: all ease-in 0.1s;
 }
 
