@@ -58,35 +58,3 @@
 }
 
 
-
-@media screen and (max-width: 1000px){
-    .grid-4c{
-        grid-template-columns: 1fr 1fr;
-    }
-
-}
-
-@media screen and (max-width: 1000px){
-    .grid-4c{
-        grid-template-columns: 1fr 1fr;
-    }
-
-    :root{
-        font-size:50% ;
-    }
-
-}
-
-@media screen and (max-width: 480px){
-
-    .grid-50-50{
-        grid-template-columns: 1fr;
-    }    
-    .grid-70-30{
-        grid-template-columns: 1fr;
-    }
-    .grid-30-70{
-        grid-template-columns: 1fr;
-    }    
-
-}

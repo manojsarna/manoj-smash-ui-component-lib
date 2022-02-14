@@ -3,6 +3,10 @@
     cursor:pointer;
 }
 
+.sm-rating i:hover{
+    color:var(--COLOR-PRIMARY);
+}
+
 .sm-rating .fas{
     color:var(--COLOR-LIGHTEN-6);
 }
