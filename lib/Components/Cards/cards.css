@@ -134,7 +134,7 @@
     font-size: 2rem;
     font-weight: 600;
     display: flex;
-    gap: 5px;
+    gap: 10px;
     justify-content: flex-start;
     align-items: flex-end;
   }
