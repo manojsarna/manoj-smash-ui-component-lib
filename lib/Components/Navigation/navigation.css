@@ -7,6 +7,7 @@
 
 .link-text-dec{
     margin-right: auto;
+    text-decoration: none;
 }
 
 .sm-nav-logo{
@@ -23,10 +24,6 @@
 
 .sm-header-icon{
     margin-right: 2px;
-}
-
-.link-text-dec{
-    text-decoration: none;
 }
 
 .sm-nav-component-show-container{
