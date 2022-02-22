@@ -25,6 +25,10 @@ Build rapid modern websites without ever leaving your HTML with Smash UI.
 Live Demo Link : https://smashui.netlify.app
 
 ---
+## Video Demo of Smash UI
+https://user-images.githubusercontent.com/45617406/155214488-0017ed4d-e9ea-4b39-bc80-4b5e0edf4cbf.mp4
+
+---
 
 ## Quick Start
 
