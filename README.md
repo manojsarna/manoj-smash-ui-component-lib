@@ -8,9 +8,14 @@
 
 Build rapid modern websites without ever leaving your HTML with Smash UI.
 
-![Forks](https://img.shields.io/github/forks/manojsarna/manoj-smash-ui-component-lib)
-![Stars](https://img.shields.io/github/stars/manojsarna/manoj-smash-ui-component-lib)
-[![Netlify Status](https://api.netlify.com/api/v1/badges/486e53c0-f893-4509-9374-a2688803c66e/deploy-status)](https://app.netlify.com/sites/smashui/deploys)
+[![GitHub followers](https://img.shields.io/github/followers/manojsarna?style=social)](https://github.com/manojsarna)
+&emsp;
+![Forks](https://img.shields.io/github/forks/manojsarna/manoj-smash-quiz)
+&emsp;
+![Stars](https://img.shields.io/github/stars/manojsarna/manoj-smash-quiz)
+&emsp;
+[![Twitter Follow](https://img.shields.io/twitter/follow/manojsarnacom?style=social)](https://twitter.com/manojsarnacom)
+
 
 </div>
 
@@ -59,6 +64,7 @@ Most of Smash UI like Alerts, Ratings, Modal, Toast etc, require the use of Java
 - [Rating](#rating)
 - [Toast](#toast)
 - [CSS Grid](#css-grid)
+- [Slider](#slider)
 
 ---
 
@@ -238,6 +244,32 @@ You will find the following types of _Grid_ on https://smashui.netlify.app/lib/d
 - Two Columns Grid (70:30)
 - Two Columns Grid (30:70)
 - Four Columns Grid
+
+---
+
+### Slider
+
+This component can be used by users to make selections from a range of values.
+
+You will find the following types of _Grid_ on https://smashui.netlify.app/lib/doc/doc.html#slider
+
+- Slider
+- Slider with Icon Disabled
+
+---
+
+### Features Added
+
+- Responsive Site (Both desktop and mobile responsive)
+- Persisting Dark / Light Mode 
+
+---
+
+### My Inspiration For The Project
+
+- Creating a project with great design and seamless functionality takes time. We can divide the building process into smaller chunks and build smaller pieces which will eventually help us to build the whole project. With that vision we [@neogcamp](https://twitter.com/neogcamp) are learning the best practices from the great tech leaders in the industry.
+
+- Learning and Growing with [@neogcamp](https://twitter.com/neogcamp)
 
 ---
 

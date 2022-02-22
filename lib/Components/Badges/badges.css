@@ -1,81 +1,81 @@
 @import "/lib/Components/Avatar/avatar.css";
 
-.avatar-badge{
+.avatar-badge {
     overflow: initial;
 }
 
-.av-badge{
-   position: absolute;
-   border-radius: 50%;
-   border: 5px solid var(--COLOR-SCROLL);
+.av-badge {
+    position: absolute;
+    border-radius: 50%;
+    border: 5px solid var(--COLOR-SCROLL);
 }
 
-.bd-xxl{
+.bd-xxl {
     width: 4rem;
-    height:4rem;
+    height: 4rem;
 }
 
-.bd-xl{
+.bd-xl {
     width: 3.5rem;
-    height:3.5rem;
+    height: 3.5rem;
 }
 
-.bd-l{
+.bd-l {
     width: 3rem;
-    height:3rem;
+    height: 3rem;
 }
 
-.bd-md{
+.bd-md {
     width: 2.5rem;
-    height:2.5rem;
+    height: 2.5rem;
 }
 
-.bd-s{
+.bd-s {
     width: 2rem;
-    height:2rem;
+    height: 2rem;
 }
 
-.bd-bottom-left{
-    bottom:0;
-    left:0;  
+.bd-bottom-left {
+    bottom: 0;
+    left: 0;
 }
 
-.bd-bottom-right{
-    bottom:0;
-    right:0;  
+.bd-bottom-right {
+    bottom: 0;
+    right: 0;
 }
 
-.bd-top-right{
-    top:0;
-    right:0;
+.bd-top-right {
+    top: 0;
+    right: 0;
 }
 
-.avatar-sq .av-badge{
+.avatar-sq .av-badge {
     border-radius: 10px;
 }
 
-.avatar-sq > .bd-bottom-left{
-    bottom:-5px;
-    left:-5px;  
+.avatar-sq>.bd-bottom-left {
+    bottom: -5px;
+    left: -5px;
 }
 
-.avatar-sq > .bd-bottom-right{
-    bottom:-5px;
-    right:-5px;  
+.avatar-sq>.bd-bottom-right {
+    bottom: -5px;
+    right: -5px;
 }
 
-.avatar-sq > .bd-bottom-right{
-    bottom:-5px;
-    right:-5px;  
+.avatar-sq>.bd-bottom-right {
+    bottom: -5px;
+    right: -5px;
 }
 
-.icon{
+.icon {
     position: relative;
     overflow: initial;
 }
 
 
-.icon-badge{
+.icon-badge {
     position: absolute;
     border-radius: 50%;
     display: grid;
@@ -83,34 +83,32 @@
     color: var(--COLOR-WHITE-ALWAYS);
 }
 
-.icon .fas{
+.icon .fas {
     font-size: 3rem;
 }
 
-
-
-.icon-bd-top-right{
+.icon-bd-top-right {
     width: 2.2rem;
-    height:2.2rem;
-    font-size:1rem;
-    font-weight: 500;
-    top:-10px;
-    right:-12px;
+    height: 2.2rem;
+    font-size: 1.6rem;
+    font-weight: 600;
+    top: -10px;
+    right: -12px;
 }
 
-.bd-btn{
+.bd-btn {
     outline: none;
     cursor: pointer;
     font-weight: 600;
     padding: 5px;
     color: var(--COLOR-BLACK);
-    border:2px solid var(--COLOR-DARKEN-2);
+    border: 2px solid var(--COLOR-DARKEN-2);
     border-radius: 5px;
     background: var(--COLOR-DARKEN-2);
     transition: all ease-in-out 0.2s;
 }
 
-.bd-btn:hover{
-    border:2px solid var(--COLOR-DARKEN-1);
+.bd-btn:hover {
+    border: 2px solid var(--COLOR-DARKEN-1);
     background: var(--COLOR-DARKEN-1);
 }

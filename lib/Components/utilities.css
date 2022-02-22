@@ -1,25 +1,25 @@
-hr{
-    color: var(--COLOR-PRIMARY) ;
-    margin:3rem 0;
-    border:0;
-    border-top: 1px solid var(--COLOR-PRIMARY); 
+hr {
+    color: var(--COLOR-PRIMARY);
+    margin: 3rem 0;
+    border: 0;
+    border-top: 1px solid var(--COLOR-PRIMARY);
 }
 
-.header{
+.header {
     padding-bottom: 2rem;
 }
 
-.text-lg{
+.text-lg {
     font-size: 2rem;
 }
 
-.margin-top-1r{
+.margin-top-1r {
     margin-top: 1rem;
 }
 
-.add-code{
+.add-code {
     font-family: var(--FONT-CODE);
-    color:var(--COLOR-WHITE-ALWAYS);
+    color: var(--COLOR-WHITE-ALWAYS);
     font-size: 1.8rem;
     margin: 2px;
     font-weight: bolder;
@@ -28,68 +28,79 @@ hr{
     border-radius: 5px;
 }
 
-.m-t-b-1{
-    margin:1rem 0;
+.m-t-b-1 {
+    margin: 1rem 0;
 }
 
-.component-show-container{
-    
+.component-show-container {
+
     padding: 2rem;
     margin: 2rem 0;
-    border:1px solid var(--COLOR-LIGHT-PRIMARY);
+    border: 1px solid var(--COLOR-LIGHT-PRIMARY);
     border-radius: 5px;
     width: 100%;
-    gap:2rem;
+    gap: 2rem;
 }
 
-.flex-column-wrap{
+.flex-column-wrap {
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-.flex-column{
+.flex-column-wrap-gap {
     display: flex;
     flex-direction: column;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
 }
 
-.flex-row-wrap{
+
+.flex-column {
     display: flex;
-    flex-wrap:wrap;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.flex-row-wrap {
+    display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: end;
     gap: 2rem;
 }
 
-.flex-row-wrap-sb{
+.flex-row-wrap-sb {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: space-between;
 }
 
-.flex-row-center-wrap{
+.flex-row-center-wrap {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
-.flex-row-wrap{
+.flex-row-wrap {
     display: flex;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
 }
 
-.bd-red{
+.bd-red {
     background: var(--COLOR-RED);
 }
-.bd-green{
+
+.bd-green {
     background: var(--COLOR-DARKEN-4);
 }
-.bd-grey{
+
+.bd-grey {
     background: var(--COLOR-GREY);
 }
 
-.img-responsive{
-    max-width:100%;
+.img-responsive {
+    max-width: 100%;
     height: auto;
 }

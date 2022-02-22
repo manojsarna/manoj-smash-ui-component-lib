@@ -4,6 +4,7 @@ div.code-toolbar > .toolbar{
     opacity: 1;
     top:0.8em;
     right:1.6em;
+    z-index: 1;
 }
 
 pre[class*=language-] {
