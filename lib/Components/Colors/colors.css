@@ -1,0 +1,114 @@
+.sm-colors {
+    display: flex;
+    height: 10rem;
+}
+
+.sm-colors div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--COLOR-WHITE-ALWAYS);
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.sm-colors div:nth-child(1) {
+    background: var(--COLOR-INFO);
+}
+
+.sm-colors div:nth-child(2) {
+    background: var(--COLOR-SUCCESS);
+}
+
+.sm-colors div:nth-child(3) {
+    background: var(--COLOR-WARNING);
+}
+
+.sm-colors div:nth-child(4) {
+    background: var(--COLOR-ERROR);
+}
+
+.sm-colors div:nth-child(5) {
+    background: var(--COLOR-GREY-BADGE);
+}
+
+.sm-colors div:nth-child(6) {
+    background: var(--COLOR-CODE-BG);
+}
+
+
+.sm-colors-primary-light {
+    display: flex;
+    height: 10rem;
+}
+
+.sm-colors-primary-light div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--COLOR-WHITE-ALWAYS);
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.sm-colors-primary-light div:nth-child(1) {
+    background: var(--COLOR-LIGHTEN-1);
+}
+
+.sm-colors-primary-light div:nth-child(2) {
+    background: var(--COLOR-LIGHTEN-2);
+}
+
+.sm-colors-primary-light div:nth-child(3) {
+    background: var(--COLOR-LIGHTEN-3);
+}
+
+.sm-colors-primary-light div:nth-child(4) {
+    background: var(--COLOR-LIGHTEN-4);
+}
+
+.sm-colors-primary-light div:nth-child(5) {
+    background: var(--COLOR-LIGHTEN-5);
+}
+
+.sm-colors-primary-light div:nth-child(6) {
+    background: var(--COLOR-LIGHTEN-6);
+}
+
+.sm-colors-primary-dark {
+    display: flex;
+    height: 10rem;
+}
+
+.sm-colors-primary-dark div {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: var(--COLOR-WHITE-ALWAYS);
+    padding: 1.2rem;
+    font-size: 1.6rem;
+}
+
+.sm-colors-primary-dark div:nth-child(1) {
+    background: var(--COLOR-DARKEN-1);
+}
+
+.sm-colors-primary-dark div:nth-child(2) {
+    background: var(--COLOR-DARKEN-2);
+}
+
+.sm-colors-primary-dark div:nth-child(3) {
+    background: var(--COLOR-DARKEN-3);
+}
+
+.sm-colors-primary-dark div:nth-child(4) {
+    background: var(--COLOR-DARKEN-4);
+}
+
+.sm-colors-primary-dark div:nth-child(5) {
+    background: var(--COLOR-DARKEN-5);
+}
+
+.sm-colors-primary-dark div:nth-child(6) {
+    background: var(--COLOR-DARKEN-6);
+}
