@@ -183,6 +183,13 @@
     .sm-nav-search{
         display: none;
     }
+    .sm-nav-new{
+        padding: 0;
+        font-size: 1.3rem;
+        width: 100%;
+        grid-template-columns: repeat(2,1fr);
+
+    }
 }
 
 @media only screen and (max-width:768px){
