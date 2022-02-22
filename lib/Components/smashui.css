@@ -2,6 +2,7 @@
 @import "/lib/Components/prismstyle.css";
 @import "/lib/Components/utilities.css";
 @import "/lib/Components/Alerts/alerts.css";
+@import "/lib/Components/Colors/colors.css";
 @import "/lib/Components/Avatar/avatar.css";
 @import "/lib/Components/Badges/badges.css";
 @import "/lib/Components/Button/button.css";
@@ -15,3 +16,4 @@
 @import "/lib/Components/Rating/rating.css";
 @import "/lib/Components/Toast/toast.css";
 @import "/lib/Components/Grid/grid.css";
+@import "/lib/Components/Slider/slider.css";

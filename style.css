@@ -6,33 +6,32 @@
 @import "/lib/Components/Badges/badges.css";
 @import "/lib/Components/Button/button.css";
 
-html{
+html {
     scroll-behavior: smooth;
     font-family: 'Inter', sans-serif;
 }
 
-body{
-    max-height:100vh;
-    font-size:1.6rem;
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    font-size: 1.6rem;
     font-weight: 500;
-    color:var(--COLOR-FONT);
-    background: var(--COLOR-BG);    
-    display:grid;
-    grid-template-areas: 
-    "header "
-    "main "
-    "footer ";
+    color: var(--COLOR-FONT);
+    background: var(--COLOR-BG);
+    display: grid;
+    grid-template-areas:
+        "header "
+        "main "
+        "footer ";
     grid-template-columns: auto;
     grid-template-rows: 7rem 1fr 7rem;
-    margin:auto;
-    max-width: 120rem;
+    margin: auto;
 }
 
 /* HEADER STARTS */
 
-.sm-header{
-
-    display:flex;
+.sm-header {
+    display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
     grid-area: header;
@@ -40,73 +39,76 @@ body{
     border-bottom: 2px solid var(--COLOR-HEADER-FONT-DARK);
     position: relative;
     width: 100%;
-    top:0;
+    top: 0;
     background: var(--COLOR-BG);
+    margin: auto;
 }
 
-.flex-center-wrap{
-    display:flex;
+.flex-center-wrap {
+    display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.sm-header-logo > svg{
+.sm-header-logo>svg {
     width: 4rem;
 }
 
 
-.sm-header-logo > svg path,circle,polygon{
-    fill:var(--COLOR-HEADER-FONT-DARK);
+.sm-header-logo>svg path,
+circle,
+polygon {
+    fill: var(--COLOR-HEADER-FONT-DARK);
 }
 
 
-.sm-header-logo > h1{
-     font-size: 4rem;
-    font-weight: 800; 
-    color:var(--COLOR-HEADER-FONT-DARK);
+.sm-header-logo>h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: var(--COLOR-HEADER-FONT-DARK);
     cursor: pointer;
-} 
+}
 
-.sm-header-nav{
+.sm-header-nav {
     gap: 1rem;
 }
 
-.header-nav-btn{
+.header-nav-btn {
     background: none;
     border: none;
     cursor: pointer;
     font-size: 2rem;
-    padding:1rem 1.5rem;
+    padding: 1rem 1.5rem;
     font-weight: 700;
-    color:var(--COLOR-HEADER-FONT-DARK);
+    color: var(--COLOR-HEADER-FONT-DARK);
     transition: all ease-in 0.1s;
-    text-decoration:none;
-}
-
-.header-nav-btn:hover{
-    color: var(--COLOR-HEADER-FONT-DARK-HOVER);
-}
-
-.sm-header-social{
-    gap:3rem;
-}
-
-.s-icon{
     text-decoration: none;
 }
 
-.btn-social{
+.header-nav-btn:hover {
+    color: var(--COLOR-HEADER-FONT-DARK-HOVER);
+}
+
+.sm-header-social {
+    gap: 3rem;
+}
+
+.s-icon {
+    text-decoration: none;
+}
+
+.btn-social {
     outline: none;
-    border:none;
+    border: none;
     background: none;
     color: var(--COLOR-HEADER-FONT-DARK);
     cursor: pointer;
-    font-size:2.5rem;
+    font-size: 2.5rem;
     transition: color ease-in 0.2s
 }
 
-.btn-social:hover{
+.btn-social:hover {
     color: var(--COLOR-HEADER-FONT-DARK-HOVER);
 }
 
@@ -115,7 +117,7 @@ body{
 
 
 /* NAV STARTS */
-.sm-nav{
+.sm-nav {
     grid-area: nav;
     display: flex;
     flex-direction: column;
@@ -127,31 +129,31 @@ body{
     position: relative;
 }
 
-.sm-nav-links{
+.sm-nav-links {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1.5rem;
 }
 
-.sm-nav-item{
+.sm-nav-item {
     text-decoration: none;
-    color:var(--COLOR-FONT); 
+    color: var(--COLOR-FONT);
     padding: 0.7rem;
     transition: all ease-in 0.2s;
 }
 
-.sm-nav-item:hover{
-    color:var(--COLOR-DARKEN-1);
+.sm-nav-item:hover {
+    color: var(--COLOR-DARKEN-1);
     border-bottom: 1px solid var(--COLOR-DARKEN-1);
 }
 
-.sm-nav-item-selected{
-    color:var(--COLOR-DARKEN-1);
+.sm-nav-item-selected {
+    color: var(--COLOR-DARKEN-1);
     border-bottom: 1px solid var(--COLOR-DARKEN-1);
 }
 
-.sm-nav-title{
+.sm-nav-title {
     padding-top: 2rem;
     font-weight: 800;
     cursor: default;
@@ -161,7 +163,7 @@ body{
 
 /* MAIN STARTS */
 
-.sm-main{
+.sm-main {
     content-visibility: auto;
     grid-area: main;
     display: flex;
@@ -172,77 +174,78 @@ body{
 
 }
 
-.container-50{
+.container-50 {
     margin: 1.5rem;
     text-align: center;
-    flex:1;
+    flex: 1;
 }
 
-.sm-main-heading{
+.sm-main-heading {
     font-size: 4.5rem;
     font-weight: 900;
 }
 
 /* MAIN ENDS */
 
-.sm-footer{
+.sm-footer {
     grid-area: footer;
     display: grid;
     place-content: center;
+    border-top: 2px solid var(--COLOR-HEADER-FONT-DARK);
 }
 
 
-.header-hb-nav{
+.header-hb-nav {
     display: none;
 }
 
-.btn-social-show{
+.btn-social-show {
     display: block;
 }
 
 
-.btn-social-hide{
+.btn-social-hide {
     display: none;
 }
 
 .header-mobile-social,
-.header-mobile-nav{
+.header-mobile-nav {
     display: none;
 }
 
-.sm-nav.sm-nav-show{
-    display:flex;
+.sm-nav.sm-nav-show {
+    display: flex;
 }
 
 
 
-.main-image{
+.main-image {
 
     object-fit: contain;
-    background:none;
+    background: none;
     transition: all ease-in 0.2s;
-  }
+}
 
 
 
-.img-responsive{
-    max-width:100%;
+.img-responsive {
+    max-width: 100%;
     height: auto;
 }
 
 
-.btn-wrapper{
+.btn-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 5rem;
-    gap:8rem;
+    gap: 8rem;
 }
 
 
-.btn-link{
+.btn-link {
     position: relative;
-    padding:1rem 1.5rem;
+    padding: 1rem 1.5rem;
     text-align: center;
     text-decoration: none;
     display: inline-block;
@@ -255,53 +258,45 @@ body{
 
 /* MEDIA QUERIES */
 
+@media only screen and (max-width:700px) {
 
-
-
-
-@media only screen and (max-width:700px){
-    :root{
-        font-size:40%;
+    :root {
+        font-size: 50%;
     }
 
-    .sm-header-nav{
+    .sm-header-nav {
         display: none;
     }
 
-    .sm-header{
-        justify-content: center;
-        gap:3rem;
-        padding: 0 2rem;
-        max-width: 90vh;
+    .sm-header {
+        justify-content: space-evenly;
+        gap: 5px;
+        padding: 0;
+        max-width: 100%;
         flex-wrap: wrap;
     }
 
-    .sm-main-heading{
+    .header-nav-btn {
+        padding: 1rem 0;
+    }
+
+    .sm-main-heading {
         font-size: 3rem;
         font-weight: 900;
     }
 }
 
+@media only screen and (max-width:900px) {
 
-@media only screen and (max-width:900px){
-    :root{
-        font-size:50%;
-    }
-
-    body{
-        margin: 0 3rem;
-    }
-
-    .sm-main{
+    .sm-main {
         grid-area: main;
         display: flex;
         flex-direction: column;
-        justify-content:flex-start;
-        margin: 2rem;
-    
+        justify-content: flex-start;
+        margin: 1rem;
     }
-    .container-50{
-        flex:0;
+
+    .container-50 {
+        flex: 0;
     }
 }
-
